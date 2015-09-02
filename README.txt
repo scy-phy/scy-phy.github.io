@@ -1,4 +1,11 @@
-Minimaxing by HTML5 UP
+SCy-Phy Website Source
+
+Design based on Minimaxing by HTML5 UP (see below). Design adaptation and content (c) SCy-Phy group at SUTD.
+
+
+
+-----Original Readme of template-----
+
 html5up.net | @n33co
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
