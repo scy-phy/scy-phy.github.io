@@ -1263,10 +1263,13 @@ ul.link-list li:first-child {
     }
 
     #header {
-	background-image: -moz-linear-gradient(top, #008ead, #007b9d);
-	background-image: -webkit-linear-gradient(top, #008ead, #007b9d);
-	background-image: -ms-linear-gradient(top, #008ead, #007b9d);
-	background-image: linear-gradient(top, #008ead, #007b9d);
+	background-image: url('../../images/background.png');
+	background-repeat: repeat-y;
+	background-repeat: repeat-x;
+	#background-image: -moz-linear-gradient(top, #008ead, #007b9d);
+	#background-image: -webkit-linear-gradient(top, #008ead, #007b9d);
+	#background-image: -ms-linear-gradient(top, #008ead, #007b9d);
+	#background-image: linear-gradient(top, #008ead, #007b9d);
 	-moz-box-sizing: content-box;
 	-webkit-box-sizing: content-box;
 	-ms-box-sizing: content-box;
@@ -1315,20 +1318,20 @@ ul.link-list li:first-child {
     }
 
     #header nav a.current-page-item {
-	background-image: -moz-linear-gradient(top, #007b99, #007897);
-	background-image: -webkit-linear-gradient(top, #007b99, #007897);
-	background-image: -ms-linear-gradient(top, #007b99, #007897);
-	background-image: linear-gradient(top, #007b99, #007897);
-	background-color: #007897;
+	#background-image: -moz-linear-gradient(top, #007b99, #007897);
+	#background-image: -webkit-linear-gradient(top, #007b99, #007897);
+	#background-image: -ms-linear-gradient(top, #007b99, #007897);
+	b#ackground-image: linear-gradient(top, #007b99, #007897);
+	#background-color: #007897;
 	box-shadow: inset 0px 1px 5px 1px rgba(0, 0, 0, 0.1), 0px 0px 5px 1px rgba(255, 255, 255, 0.1);
     }
 
     #header nav a:hover {
-	background-image: -moz-linear-gradient(top, #0782a0, #077d9b);
-	background-image: -webkit-linear-gradient(top, #0782a0, #077d9b);
-	background-image: -ms-linear-gradient(top, #0782a0, #077d9b);
-	background-image: linear-gradient(top, #0782a0, #077d9b);
-	background-color: #0882a1;
+	#background-image: -moz-linear-gradient(top, #0782a0, #077d9b);
+	#background-image: -webkit-linear-gradient(top, #0782a0, #077d9b);
+	#background-image: -ms-linear-gradient(top, #0782a0, #077d9b);
+	#background-image: linear-gradient(top, #0782a0, #077d9b);
+	#background-color: #0882a1;
 	box-shadow: inset 0px 1px 5px 1px rgba(0, 0, 0, 0.05), 0px 0px 5px 1px rgba(255, 255, 255, 0.05);
     }
 
