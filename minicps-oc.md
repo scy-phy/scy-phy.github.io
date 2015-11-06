@@ -29,6 +29,13 @@ Each sub-process is managed by a separate couple of PLC in redundant configurati
 The whole system must guarantee a set of requirements on the amount of
 pure filtered and recovered water and on the quality of the pure water.
 In Fig. TODO you can see a schematic representation of the water flows.
+
+Fig: Swat real pic
+
+Fig: Swat scheme
+
+Fig: Swat network scheme
+
 The SWAT network is a typical CPS layered network. The link are both wired
 and wireless. Each sub-process implements a Device Level Ring (DLR) network
 and the PLCs are connected in a star topology. The spoken industrial protocol
@@ -49,6 +56,8 @@ understand that the task is not trivial and we extensively did research about
 other relevant emulation and simulation tool to build the framework. We
 opted for a *stand on the shoulder of the giants* approach where it was
 possible.
+
+Fig: MiniCPS block diagram
 
 Fig TODO  shows MiniCPS block diagram.  For the *Physical* part we
 use a physical process simulator script, an abstraction of the system state and an
@@ -81,6 +90,8 @@ in different programming languages and use our API to perform high level
 function call,
 and that is compatible with different storage back ends,
 
+Fig: MiniCPS swat example: description
+
 We *evaluated* MiniCPS reproducing the first stage of the SWaT testbed.
 The water coming from the *grid* is collected in a Raw water tank
 and it is eventually pumped to a chemical treatment stage and the result is
@@ -94,6 +105,8 @@ emulation uses realistic *addresses* such as IP and MAC and realistic
 *services* are using realistic port numbers such as ENIP servers. The
 scenario can be initialized with an optional external *attacker* node and an
 *SDN controller*. 
+
+Fig: MiniCPS swat example: network
 
 We used this setting to reproduce the same attack that we performed on our
 testbed evaluation. Those attack are based on ARP poisoning and include
