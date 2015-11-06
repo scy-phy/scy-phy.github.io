@@ -35,12 +35,12 @@ and the PLCs are connected in a star topology. The spoken industrial protocol
 is *Ethernet/IP (ENIP)* that is a Real Time Ethernet (RTE) field bus based on
 TCP/IP with a custom application layer designed to meet typical industrial 
 communications requirements like *real-time response* and packet *determinism*.
-Technically ENIP is an Ethernet-based implementation of the *Common Industrial Protocol
-(CIP)*.
+Technically ENIP is an Ethernet-based implementation of the Common Industrial Protocol
+(CIP).
 
 CPS and SWAT testbed are the two main motivations behind the development of
 MiniCPS, our long-term vision is to create a research environment that is
-*reproducible* in other research lab without the need to physically visit the
+*reproducible* in other research labs without the need to physically visit the
 testbed. We want an *extensible* framework that encourages
 *sharing* of information and results. MiniCPS is targeted to CPS network,
 indeed it must deal with Networked devices, control logic, physical
@@ -50,25 +50,24 @@ other relevant emulation and simulation tool to build the framework. We
 opted for a *stand on the shoulder of the giants* approach where it was
 possible.
 
-Fig TODO  shows MiniCPS block diagram. We have *Cyber* part and because the initial
-focus of MiniCPS was *CPS network security* we decided to use an emulator to
-generate realistic traffic. For the Physical part we use a *physical process
-simulator script*, an *abstraction of the system state* and an *API* to access
-it.
+Fig TODO  shows MiniCPS block diagram.  For the *Physical* part we
+use a physical process simulator script, an abstraction of the system state and an
+Physical layer API to access it.
 For the *System* part we use control logic simulators. 
 In summary physical process simulation script and control logic simulation
 scripts modify the abstracted system state using an API and simulated devices
-are able to communicate using a realistic network emulator. For time reason I
-will focus on the most interesting parts, namely the network emulator and the
-physical layer API.
+are able to communicate using a realistic network emulator.
 
+For the *Cyber* part we decided to use *Mininet* emulator.
 Mininet is a network emulator developed at Stanford university. The tool is
-well established and it is used by network researcher to *reproduce* complex
-topologies and generate and process *real* packets 
-The emulator is extremely *lightweight* because 
-can emulate thousands of node on a single Linux kernel. This is a key property
-of an easy to reproduce and an easy to share research platform such as
-MiniCPS. Furthermore mininet easily allows *Software-Defined Networking*
+well established and it is used by network researcher to reproduce complex
+topologies and generate and process real packets 
+The emulator is extremely lightweight and because is based on Linux
+container virtualization it is able to emulate thousands of node on a single Linux
+kernel. Mininet offers a big advantage over fully-virtualized solutions and
+it is an ideal component for a research platform that aims to be easy to
+configure, share and reproduce even on a single laptop.
+Furthermore mininet easily allows *Software-Defined Networking*
 development using *OpenFlow* as the control protocol.
 
 The MiniCPS physical layer API is the *glue* of the platform.
