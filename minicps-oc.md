@@ -2,11 +2,12 @@
 (CPS) developed by SCy-Phy team at Singapore University of Technology and
 Design (SUTD).
 
-There are at least 3 motivations behind the development of MiniCPS:
+![SWaT testbed](images/testbed.png "swat-testbed")
 
-1. CPS itself
+There are at least 2 motivations behind the development of MiniCPS:
+
+1. CPSs themselves
 2. Secure Water Treatment Testbed (SWaT)
-3. CPS researchers
 
 CPS are complex systems composed by different devices, such as Programmable
 Logic Controllers (PLCs), SCADA, Network Switches, Firewalls, Human-Machine
@@ -30,11 +31,9 @@ The whole system must guarantee a set of requirements on the amount of
 pure filtered and recovered water and on the quality of the pure water.
 In Fig. TODO you can see a schematic representation of the water flows.
 
-Fig: Swat real pic
+![SWaT Process](images/swat-process.jpg "swat-process")
 
-Fig: Swat scheme
-
-Fig: Swat network scheme
+![SWaT Network Block Diagram](images/swat-network.png "swat-network")
 
 The SWAT network is a typical CPS layered network. The link are both wired
 and wireless. Each sub-process implements a Device Level Ring (DLR) network
