@@ -4,10 +4,8 @@ Design (SUTD).
 
 ![SWaT testbed](images/testbed.png "swat-testbed")
 
-There are at least 2 motivations behind the development of MiniCPS:
-
-1. CPSs themselves
-2. Secure Water Treatment Testbed (SWaT)
+There are at least 2 motivations behind the development of MiniCPS: the first
+one are CPS themselves and the second one is the Secure Water Treatment Testbed (SWaT).
 
 CPS are complex systems composed by different devices, such as Programmable
 Logic Controllers (PLCs), SCADA, Network Switches, Firewalls, Human-Machine
@@ -61,41 +59,43 @@ possible.
 
 The picture above shows MiniCPS block diagram.  
 
-* For the *Physical* part we
-use a physical process simulator script, an abstraction of the system state and an
+For the *Physical* part we are using a simple
+physical process simulator script, an abstraction of the system state and an
 Physical layer API to access it.
 
-* For the *System* part we use control logic simulators. 
-In summary physical process simulation script and control logic simulation
-scripts modify the abstracted system state using an API and simulated devices
-are able to communicate using a realistic network emulator.
+For the *System* part we are using simple  control logic simulators. 
+Usually a physical process simulation script and  some control logic simulation
+scripts are able to update the abstracted system state using the Physical
+Layer API.
 
-* For the *Cyber* part we decided to use *Mininet* emulator.
+For the *Cyber* part we are using *Mininet* network emulator.
+Mininet was developed by some Stanford University researcher. Mininet is
+a well established project and it was and it is used to reproduce even
+very complex network topologies producing realistic traffic using
+realistic protocol stacks.
+Mininet is extremely lightweight and because is based on Linux
+container virtualization it is able to emulate thousands of node on a single Linux
+kernel. Mininet offers a big advantage over fully-virtualized solutions and
+it is an ideal component for a research platform that aims to be easy to
+configure, share and reproduce even on a single laptop.
+Furthermore Mininet easily allows *Software-Defined Networking*
+development, using *OpenFlow* as the control protocol.
 
-    * Mininet is a network emulator developed at Stanford university. The tool is
-    well established and it is used by network researcher to reproduce complex
-    topologies and generate and process real packets.
-
-    * The emulator is extremely lightweight and because is based on Linux
-    container virtualization it is able to emulate thousands of node on a single Linux
-    kernel. Mininet offers a big advantage over fully-virtualized solutions and
-    it is an ideal component for a research platform that aims to be easy to
-    configure, share and reproduce even on a single laptop.
-
-    * Furthermore mininet easily allows *Software-Defined Networking*
-    development using *OpenFlow* as the control protocol.
-
-The MiniCPS physical layer API is the *glue* of the platform.
+The MiniCPS Physical Layer API is the *glue* of the platform.
 CPS are composed by multiple devices *sharing* some resources and
 *concurrently* access them. We decided to use a database to represent the
 actual physical state and to manage concurrency problems. We raise the level
 of abstraction implementing intuitive semantic functions such as *get* and
 *set*. The aim is to develop a compatibility layer that support multiple
-programming languages such that two researcher can develop different scripts
-in different programming languages and use our API to perform high level
-function call,
-and that is compatible with different storage back ends,
+programming languages, because we understand that researcher with different
+background may program at different level of abstraction using different
+environments, E.g.: GNU/Octave for the pysical layer simulation and Python
+for the control logic simulation. Furthermore we'd like to support multiple
+database backends (currently we are working with SQLite) such as Redis
+(NoSQL) and we'd like to add support to multiple XML graph formats to specify
+the network topologies.
 
+<!---
 Fig: MiniCPS swat example: description
 
 We *evaluated* MiniCPS reproducing the first stage of the SWaT testbed.
@@ -122,3 +122,4 @@ HMI is able both to monitor and to control the system and in this picture it
 is sending a control signal to PLC1. the smart attacker is able to intercept
 the traffic and change the relevant payload on the fly, fooling PLC1 that
 will send the incorrect command to the actuator.
+-->
