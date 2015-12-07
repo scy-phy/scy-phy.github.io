@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<!--
+	Minimaxing by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>MiniCPS</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
+		<div id="page-wrapper">
+			<div id="header-wrapper">
+				<div class="container">
+					<div class="row">
+						<div class="12u">
+
+                <header id="header"><div style="background-image: url('../images/images/scy-phy.png'); 
+                    background-repeat: repeat-y;background-repeat: repeat-x;">
+                    <a href="index.html" id="logo"><img src="images/scy-phy.png" alt="" class="left" /></a>
+                    <nav id="nav">
+								<nav id="nav">
+									<!-- <a href="index.html">Homepage</a> -->
+									<!-- <a href="twocolumn1.html">Two Column #1</a> -->
+									<!-- <a href="twocolumn2.html">Two Column #2</a> -->
+									<!-- <a href="onecolumn.html" class="current-page-item">One Column</a> -->
+									<!-- <a href="threecolumn.html">Three Column</a> -->
+								</nav>
+							</header>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="main">
+				<div class="container">
+					<div class="row main-row">
+						<div class="12u">
+
+							<section>
+								<h2>MiniCPS</h2>
+
+                <!-- HERE -->
+<p><strong>MiniCPS</strong> is a framework for security research on Cyber Physical System (CPS) under development by the SCy-Phy group at Singapore University of Technology and Design (SUTD).</p>
+<div class="figure">
+<img src="images/testbed.png" title="swat-testbed" alt="SWaT testbed" />
+<p class="ccaption">SWaT testbed</p>
+</div>
+<p>There are at least 2 motivations behind the development of MiniCPS: the first one are CPS themselves and the second one is the Secure Water Treatment Testbed (SWaT).</p>
+<p>CPS are complex systems composed by different devices, such as Programmable Logic Controllers (PLCs), SCADA, Network Switches, Firewalls, Human-Machine Interfaces (HMI). A CPS is able to manage autonomously or semi-autonomously a critical process, such as water purification and electrical power distribution. CPS devices are interconnected and sometimes connected to the Internet, indeed they are exposed both to <em>physical</em> attack and <em>cyber</em> attacks. Additionally, CPS information may be difficult to obtain, prove and share because of many reasons such as system diversity, industrial competition and government issues. Moreover, CPS research requires different expertises and it is quite hard to build a research team in the same University sitting in the same room able to speak the same technical language.</p>
+<p>The second motivation behind MiniCPS is more practical. SUTD is one of the privileged University to have full access on a industrial scale water treatment testbed, known as the <em>Secure Water Treatment Testbed (SWaT)</em>. SWaT is composed by six <em>sequential</em> sub-processes such as chemical treatments, ultra-filtration, reverse osmosis and Ultra-Violet light exposure. Each sub-process is managed by a separate couple of PLC in redundant configuration. The whole system must guarantee a set of requirements on the amount of pure filtered and recovered water and on the quality of the pure water. In the picture below you can see a schematic view of the system that is the same image displayed in real-time by the HMI.</p>
+<div class="figure">
+<img src="images/swat-process.jpg" title="swat-process" alt="SWaT Process" />
+<p class="caption">SWaT Process</p>
+</div>
+<p>The SWaT network is a typical CPS layered network. The link are both wired and wireless. Each sub-process implements a Device Level Ring (DLR) network and the PLCs are connected in a star topology. The spoken industrial protocol is <em>Ethernet/IP (ENIP)</em> that is a Real Time Ethernet (RTE) field bus based on TCP/IP with a custom application layer designed to meet typical industrial communications requirements like <em>real-time response</em> and <em>packet order determinism</em>. Technically ENIP is an Ethernet-based implementation of the Common Industrial Protocol (CIP). In the picture below you can see a simplified schematic view of the network architecture.</p>
+<div class="figure">
+<img src="images/swat-network.png" title="swat-network" alt="SWaT Network Block Diagram" />
+<p class="caption">SWaT Network Block Diagram</p>
+</div>
+<p>Our long-term vision for MiniCPS is to create a research environment that is <em>reproducible</em> in other research labs without the need to physically visit the target testbed. We'd like to provide an <em>extensible</em> framework that encourages <em>sharing</em> of information and results. MiniCPS is targeted to CPS network, indeed it must deal with networked devices, control logic, physical process and interactions among devices and the physical process itself. We understand that the task is not trivial and we extensively did research about other relevant emulation and simulation tools to build the framework. We opted for a <em>stand on the shoulder of the giants</em> approach where it was possible.</p>
+<div class="figure">
+<img src="images/minicps-diagram.png" title="minicps-diagram" alt="MiniCPS diagram" />
+<p class="caption">MiniCPS diagram</p>
+</div>
+<p>The picture above shows MiniCPS block diagram.</p>
+<p>For the <em>Physical</em> part we are using a simple physical process simulator script, an abstraction of the system state and an Physical layer API to access it.</p>
+<p>For the <em>System</em> part we are using simple control logic simulators. Usually a physical process simulation script and some control logic simulation scripts are able to update the abstracted system state using the Physical Layer API.</p>
+<p>For the <em>Cyber</em> part we are using <em>Mininet</em> network emulator. Mininet was developed by some Stanford University researcher. Mininet is a well established project and it was and it is used to reproduce even very complex network topologies producing realistic traffic using realistic protocol stacks. Mininet is extremely lightweight and because is based on Linux container virtualization it is able to emulate thousands of node on a single Linux kernel. Mininet offers a big advantage over fully-virtualized solutions and it is an ideal component for a research platform that aims to be easy to configure, share and reproduce even on a single laptop. Furthermore Mininet easily allows <em>Software-Defined Networking</em> development, using <em>OpenFlow</em> as the control protocol.</p>
+<p>The MiniCPS Physical Layer API is the <em>glue</em> of the platform. CPS are composed by multiple devices <em>sharing</em> some resources and <em>concurrently</em> access them. We decided to use a database to represent the actual physical state and to manage concurrency problems. We raise the level of abstraction implementing intuitive semantic functions such as <em>get</em> and <em>set</em>. The aim is to develop a compatibility layer that support multiple programming languages, because we understand that researcher with different background may program at different level of abstraction using different environments, E.g.: GNU/Octave for the pysical layer simulation and Python for the control logic simulation. Furthermore we'd like to support multiple database backends (currently we are working with SQLite) such as Redis (NoSQL) and we'd like to add support to multiple XML graph formats to specify the network topologies.</p>
+							</section>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="footer-wrapper">
+				<div class="container">
+					<div class="row">
+						<div class="8u 12u(mobile)">
+
+							<section>
+								<h2>Related Links</h2>
+								<div>
+									<div class="row">
+										<div class="3u 12u(mobile)">
+											<ul class="link-list">
+                        <li><a href="http://itrust.sutd.edu.sg">iTrust</a></li>
+                        <li><a href="http://istd.sutd.edu.sg">ISTD</a></li>
+                        <li><a href="http://www.sutd.edu.sg">SUTD</a></li>
+												<!-- <li><a href="#">Sed neque nisi consequat</a></li> -->
+											</ul>
+										</div>
+									</div>
+								</div>
+							</section>
+
+						</div>
+						<div class="4u 12u(mobile)">
+
+              <section>
+                <h2>Fork us!</h2>
+                <p>Most of our code is made public on our GitHub account. If you are interest in our projects, specific code fragments, even some of our data, please have a look!</p>
+                <footer class="controls">
+                  <a href="https://github.com/scy-phy" class="button">Take me there ...</a>
+                </footer>
+              </section>
+
+						</div>
+					</div>
+					<div class="row">
+						<div class="12u">
+
+							<div id="copyright">
+								&copy; Nils Ole Tippenhauer. All rights reserved. | Design based on: <a href="http://html5up.net">HTML5 UP</a>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/skel-viewport.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+	</body>
+</html>
