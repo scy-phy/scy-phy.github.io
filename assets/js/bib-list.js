@@ -2584,7 +2584,7 @@ var bibtexify = (function($) {
         // helper functions for formatting different types of bibtex entries
         inproceedings: function(entryData) {
             return this.authors2html(entryData.author) + "; \"" +
-                entryData.title + ".\" In <em>" + entryData.booktitle + "<\/em>, " + entryData.year + ". " + ((entryData.doi)?"(<a href=http://dx.doi.org/" + entryData.doi + ">doi line</a>, ":"(");
+                entryData.title + ".\" In <em>" + entryData.booktitle + "<\/em>, " + entryData.year + ". " + ((entryData.doi)?"(<a href=http://dx.doi.org/" + entryData.doi + ">doi link</a>, ":"(");
         },
         article: function(entryData) {
             return this.authors2html(entryData.author) + "; \"" +
