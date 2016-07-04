@@ -2646,15 +2646,15 @@ var bibtexify = (function($) {
         labels: {
             'article': 'Journal',
             'book': 'Book',
-            'conference': 'Conference',
+            'conference': 'Proceedings',
             'inbook': 'Book chapter',
             'incollection': '',
-            'inproceedings': 'Conference',
+            'inproceedings': 'Proceedings',
             'manual': 'Manual',
             'mastersthesis': 'Thesis',
             'misc': 'Misc',
             'phdthesis': 'PhD Thesis',
-            'proceedings': 'Conference proceeding',
+            'proceedings': 'Proceedings',
             'techreport': 'Technical report',
             'unpublished': 'Unpublished'}
     };
