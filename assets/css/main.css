@@ -49,12 +49,12 @@ body {
 }
 
 /* Box Model */
-
+/*
 *, *:before, *:after {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-}
+}*/
 
 /* Containers */
 
@@ -1322,7 +1322,7 @@ ul.link-list li:first-child {
 	#background-image: -moz-linear-gradient(top, #007b99, #007897);
 	#background-image: -webkit-linear-gradient(top, #007b99, #007897);
 	#background-image: -ms-linear-gradient(top, #007b99, #007897);
-	b#ackground-image: linear-gradient(top, #007b99, #007897);
+	#background-image: linear-gradient(top, #007b99, #007897);
 	#background-color: #007897;
 	box-shadow: inset 0px 1px 5px 1px rgba(0, 0, 0, 0.1), 0px 0px 5px 1px rgba(255, 255, 255, 0.1);
     }

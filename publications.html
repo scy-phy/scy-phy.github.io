@@ -3,6 +3,8 @@
 	Minimaxing by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+Also using https://github.com/vkaravir/bib-publication-list
 -->
 <html>
 	<head>
@@ -10,10 +12,22 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/main.css" /> 
+		<link rel="stylesheet" href="assets/css/bib-publication-list.css" type="text/css" />			
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
 	<body>
+
+			<script type="text/javascript">
+			  var init = function() {
+   bibtexify("#bibtex", "pubTable", {});
+ };
+ if (window.addEventListener) {
+   window.addEventListener('load', init, false);
+ } else if (window.attachEvent) {
+   window.attachEvent('onload', init);
+ }
+</script>	  
 		<div id="page-wrapper">
 			<div id="header-wrapper">
 				<div class="container">
@@ -23,9 +37,10 @@
 							<header id="header">
 								<h1><a href="#" id="logo">Publications</a></h1>
 								<nav id="nav">
-									<a href="people.html">People</a>
+									<a href="index.html">Home</a>
+									<!-- <a href="people.html">People</a> -->
 									<a href="publications.html"  class="current-page-item">Publications</a>
-									<a href="projects.html">Projects</a>
+									<!-- <a href="projects.html">Projects</a> -->
 									<!-- <a href="onecolumn.html">One Column</a>
 									<a href="threecolumn.html">Three Column</a> -->
 								</nav>
@@ -40,94 +55,189 @@
 					<div class="row main-row">
 						<div class="12u">
 
-							<section>
-								<h2>One Column (no sidebar)</h2>
-								<p>This is the second generic interior page. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ante ante, viverra a ornare sed, convallis sed est. Proin felis sapien, adipiscing quis eleifend vel, sodales vitae sapien. Donec vel lacus leo, eu convallis metus. Cras egestas feugiat tortor, vitae interdum augue aliquam a. Sed nec augue id orci egestas commodo in eget magna. Nunc eleifend diam non odio laoreet placerat gravida nulla bibendum. Phasellus tempus imperdiet suscipit.</p>
-								<p>Mauris risus nulla, pulvinar vitae sagittis a, pharetra nec tellus. Suspendisse varius enim ac felis mattis aliquam. Aenean et justo quis ipsum gravida lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia bibendum cursus. Nullam nec pellentesque lacus. In porta erat in tortor rhoncus quis accumsan magna pretium. Nulla posuere magna eget mauris lacinia in mollis sem fermentum. Donec mollis adipiscing mauris, ut posuere enim rhoncus ut. Nunc commodo vestibulum orci vel placerat. Cras sed risus libero. Donec ac lacus vitae lectus mattis commodo id vitae libero. Etiam lorem odio, volutpat nec pulvinar sit amet, tincidunt ut lacus. Pellentesque consequat arcu vel nisi lobortis in pellentesque orci sollicitudin. Cras gravida lacus turpis, consectetur porttitor lectus. Cras malesuada tortor id neque porta ut semper quam iaculis.</p>
-								<p>Nulla ut tortor quam, a luctus nunc. Nulla condimentum diam porttitor arcu placerat tincidunt. Nunc non augue ipsum. Nulla facilisi. Phasellus feugiat augue in ipsum egestas semper. Suspendisse blandit, nisl ullamcorper blandit sollicitudin, sem leo auctor lectus, et volutpat mauris elit et odio. Ut elementum risus in metus mollis tristique vulputate nulla interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae orci dui, ut facilisis dui.</p>
+						  <section>
+
+<h2>SCy-Phy Publications</h2>						    
+<table id="pubTable" class="display"></table>
+<pre id="bibtex">
+
+@INPROCEEDINGS{tippenhauer14automatic,
+title = {Automatic Generation of Security Argument Graphs},
+author= {Nils Ole Tippenhauer and William G. Temple and An Hoa Vu and Binbin Chen and David M. Nicol and Zbigniew Kalbarczyk and William Sanders},
+booktitle= {Proceedings of the IEEE Pacific Rim International Symposium on Dependable Computing (PRDC)},
+year= 2014,
+month = Nov,
+doi = {10.1109/PRDC.2014.13}
+}
+
+@INPROCEEDINGS{vu14cybersage,
+title = {CyberSAGE: A Tool for Automatic Security Assessment of Cyber-Physical Systems},
+author= {An Hoa Vu and Nils Ole Tippenhauer and Binbin Chen and David M. Nicol and Zbigniew Kalbarczyk},
+booktitle= {Proceedings of the Conference on Quantitative Evaluation of SysTems (QEST)},
+year= 2014,
+month = Sep,
+doi={10.1007/978-3-319-10696-0_29}
+}
+
+
+@inproceedings{tippenhauer15uwb,
+  title={{UWB} Rapid-Bit-Exchange System for Distance Bounding},
+  author={Tippenhauer, Nils Ole and Luecken, Heinrich and Kuhn, Marc and Capkun, Srdjan},
+  booktitle={Proceedings of the ACM Conference on Security and Privacy in Wireless and Mobile Networks (WiSec)},
+  month= Jun,
+  year={2015},
+  doi={10.1145/2766498.2766504}
+}
+
+@inproceedings{antonioli15minicps,
+  title={{MiniCPS}: A toolkit for security research on {CPS} Networks},
+  author={ Antonioli, Daniele and Tippenhauer, Nils Ole},
+  booktitle={Proceedings of Workshop on Cyber-Physical Systems Security \& Privacy (SPC-CPS), co-located with CCS},
+  month=Oct,
+  year={2015},
+  doi={10.1145/2808705.2808715}
+}
+
+@InProceedings{rocchetto16models,
+  Title                    = {On Attacker Models and Profiles for Cyber-Physical Systems},
+  Author                   = {Rocchetto, Marco and Tippenhauer, Nils Ole},
+  Booktitle                = {Proceedings of the European Symposium on Research in Computer Security (ESORICS)},
+  Year                     = {2016}
+}
+
+@article{tippenhauer16integrity,
+title = "Physical-Layer Integrity for Wireless Messages",
+author = "Tippenhauer, Nils Ole and Rasmussen, Kasper Bonne, and Capkun, Srdjan",
+journal = {Computer Networks},
+year = "2016",
+issn = "1389-1286",
+publisher = {Elsevier},
+doi = "10.1016/j.comnet.2016.06.021"
+}
+
+@inproceedings{dong16cissa,
+title={The Right Tool for the Job: a Case for Common Input Scenarios for Security Assessment},
+author={Dong, Xinshu and Jauhar, Sumeet and Temple, William G. and Chen, Binbin  and Kalbarczyk, Zbigniew and Sanders, William H. and Tippenhauer, Nils Ole and  Nicol, David M.},
+booktitle={Proceedings of Workshop on Graphical Models
+                  for Security (GraMSec)},
+month=June,
+year={2016}
+}
+
+@inproceedings{taormina16assessing,
+title={Assessing the effect of cyber-physical attacks on water distribution systems},
+author={Taormina, Riccardo and Galelli, Stefano and
+Tippenhauer, Nils Ole and Salomons, Elad and Ostfeld, Avi},
+booktitle={Proceedings of World Congress on Environmental \& Water Resources (EWRI)},
+month=May,
+year={2016}
+}
+
+@inproceedings{tippenhauer16testbeds,
+title={Water Treatment, Distribution, and Electric Power Testbeds for
+                  Research in the Design of Secure Interdependent
+                  Critical Infrastructures},
+author={Tippenhauer, Nils Ole and Ochoa, Martin and Mathur, Aditya},
+booktitle={Proceedings of Workshop on Security and Resilience of Cyber-Physical Infratrctures (SERECIN)},
+month=Apr,
+year={2016}
+}
+
+@inproceedings{mathur16swat,
+title={A Water Treatment Testbed for Research and Training on {ICS} Security},
+author={Mathur, Aditya and Tippenhauer, Nils Ole},
+booktitle={Proceedings of Workshop on Cyber-Physical Systems for Smart
+                  Water Networks (CySWater)},
+month=Apr,
+year={2016}
+}
+
+@inproceedings{urbina16fieldbus,
+title={Attacking Fieldbus Communications in {ICS}: Applications to the
+{SWaT} Testbed},
+author={Urbina, David and Giraldo, Jairo and Tippenhauer, Nils Ole and
+C\'ardenas, Alvaro},
+booktitle={Proceedings of Singapore Cyber Security Conference (SG-CRC)},
+month=Jan,
+year={2016},
+doi={10.3233/978-1-61499-617-0-75}
+}
+
+@inproceedings{taormina16simulation,
+title={Simulation of Cyber-Physical Attacks on Water Distribution
+Systems with {EPANET}},
+author={Taormina, Riccardo and Galelli, Stefano and
+Tippenhauer, Nils Ole and Salomons, Elad and Ostfeld, Avi},
+booktitle={Proceedings of Singapore Cyber Security Conference (SG-CRC)},
+month=Jan,
+year={2016},
+doi={10.3233/978-1-61499-617-0-123}
+}
+
+@inproceedings{wilhelm16sensg,
+title={{SENSg}: Large-Scale Deployment of Wearable Sensors for Trip
+                  and Transport Mode Logging},
+author={Wilhelm, Erik and Tippenhauer, Nils Ole and Zhou, Yuren and
+                  Zhang, Nan},
+booktitle={Proceedings of Transportation Research Board Annual Meeting (TRB)},
+month=Jan,
+year={2016}
+}
+</pre>
+<p>.JS and CSS of this list based on <a href=https://github.com/vkaravir/bib-publication-list>this</a>.</p>
+						    
 							</section>
 
 						</div>
 					</div>
 				</div>
 			</div>
-			<div id="footer-wrapper">
-				<div class="container">
-					<div class="row">
-						<div class="8u 12u(mobile)">
 
-							<section>
-								<h2>How about a truckload of links?</h2>
-								<div>
-									<div class="row">
-										<div class="3u 12u(mobile)">
-											<ul class="link-list">
-												<li><a href="#">Sed neque nisi consequat</a></li>
-												<li><a href="#">Dapibus sed mattis blandit</a></li>
-												<li><a href="#">Quis accumsan lorem</a></li>
-												<li><a href="#">Suspendisse varius ipsum</a></li>
-												<li><a href="#">Eget et amet consequat</a></li>
-											</ul>
-										</div>
-										<div class="3u 12u(mobile)">
-											<ul class="link-list">
-												<li><a href="#">Quis accumsan lorem</a></li>
-												<li><a href="#">Sed neque nisi consequat</a></li>
-												<li><a href="#">Eget et amet consequat</a></li>
-												<li><a href="#">Dapibus sed mattis blandit</a></li>
-												<li><a href="#">Vitae magna sed dolore</a></li>
-											</ul>
-										</div>
-										<div class="3u 12u(mobile)">
-											<ul class="link-list">
-												<li><a href="#">Sed neque nisi consequat</a></li>
-												<li><a href="#">Dapibus sed mattis blandit</a></li>
-												<li><a href="#">Quis accumsan lorem</a></li>
-												<li><a href="#">Suspendisse varius ipsum</a></li>
-												<li><a href="#">Eget et amet consequat</a></li>
-											</ul>
-										</div>
-										<div class="3u 12u(mobile)">
-											<ul class="link-list">
-												<li><a href="#">Quis accumsan lorem</a></li>
-												<li><a href="#">Sed neque nisi consequat</a></li>
-												<li><a href="#">Eget et amet consequat</a></li>
-												<li><a href="#">Dapibus sed mattis blandit</a></li>
-												<li><a href="#">Vitae magna sed dolore</a></li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</section>
+      <div id="footer-wrapper">
+	<div class="container">
+	  <div class="row">
+	    <div class="8u 12u(mobile)">
 
-						</div>
-						<div class="4u 12u(mobile)">
-
-							<section>
-								<h2>Something of interest</h2>
-								<p>Duis neque nisi, dapibus sed mattis quis, rutrum accumsan sed.
-								Suspendisse eu varius nibh. Suspendisse vitae magna eget odio amet
-								mollis justo facilisis quis. Sed sagittis mauris amet tellus gravida
-								lorem ipsum dolor sit amet consequat blandit.</p>
-								<footer class="controls">
-									<a href="#" class="button">Oh, please continue ....</a>
-								</footer>
-							</section>
-
-						</div>
-					</div>
-					<div class="row">
-						<div class="12u">
-
-							<div id="copyright">
-								&copy; Untitled. All rights reserved. | Design: <a href="http://html5up.net">HTML5 UP</a>
-							</div>
-
-						</div>
-					</div>
-				</div>
-			</div>
+	      <section>
+		<h2>Related Links</h2>
+		<div>
+		  <div class="row">
+		    <div class="8u 12u(mobile)">
+		      <ul class="link-list">
+			<li><a href="http://itrust.sutd.edu.sg">iTrust</a></li>
+			<li><a href="http://istd.sutd.edu.sg">ISTD</a></li>
+			<li><a href="http://www.sutd.edu.sg">SUTD</a></li>
+		      </ul>
+		    </div>
+		  </div>
 		</div>
+	      </section>
+
+	    </div>
+	    <div class="4u 12u(mobile)">
+
+	      <section>
+		<h2>Fork us!</h2>
+		<p>Most of our code is made public on our GitHub account. If you are interest in our projects, specific code fragments, even some of our data, please have a look!</p>
+		<footer class="controls">
+		  <a href="https://github.com/scy-phy" class="button">Take me there ...</a>
+		</footer>
+	      </section>
+
+	    </div>
+	  </div>
+	  <div class="row">
+	    <div class="12u">
+
+	      <div id="copyright">
+		&copy; Nils Ole Tippenhauer. All rights reserved. | Design based on: <a href="http://html5up.net">HTML5 UP</a>
+	      </div>
+
+	    </div>
+	  </div>
+	</div>
+      </div>
+    </div>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
@@ -136,6 +246,8 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/bib-list.js"></script>
 
+		
 	</body>
 </html>
