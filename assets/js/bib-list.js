@@ -1441,9 +1441,9 @@ BibTex.prototype = {
             }
             authorarray[i] = {'first':trim(first), 'von':trim(von), 'last':trim(last), 'jr':trim(jr)};
         }
-        for (var i = 0; i < authorarray.length; i++) {
+        /*for (var i = 0; i < authorarray.length; i++) {
 	    console.log(authorarray[i]);
-	};
+	}; */
         return authorarray;
     },
 
@@ -2800,7 +2800,7 @@ var bibtexify = (function($) {
                     str += '<div class="pub ' + type + '"></div>';
                 }
             }
-            return str + '<div class="yearlabel">' + item.year + '</div></div>';
+            return str + '<div class="yearlabel">' + item.year + " (" + item.count + ")"  + '</div></div>';
         };
         var statsHtml = "<style>" + styleStr + "</style>";
         yearstats.forEach(function(item) {
