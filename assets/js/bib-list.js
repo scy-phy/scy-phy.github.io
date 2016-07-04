@@ -2538,7 +2538,7 @@ var bibtexify = (function($) {
         // adds the bibtex link and the opening div with bibtex content
         bibtex: function(entryData) {
             var itemStr = '';
-            itemStr += ' <a title="This article as BibTeX" href="#" class="biblink">' +
+            itemStr += '<a title="This article as BibTeX" href="#" class="biblink">' +
                         'bib</a>)<div class="bibinfo hidden">';
             itemStr += '<a href="#" class="bibclose" title="Close">x</a><pre>';
             itemStr += '@' + entryData.entryType + "{" + entryData.cite + ",\n";
@@ -2584,14 +2584,14 @@ var bibtexify = (function($) {
         // helper functions for formatting different types of bibtex entries
         inproceedings: function(entryData) {
             return this.authors2html(entryData.author) + "; \"" +
-                entryData.title + ".\" In <em>" + entryData.booktitle + "<\/em>, " + entryData.year + ". " + ((entryData.doi)?"(<a href=http://dx.doi.org/" + entryData.doi + ">link</a>,":"(");
+                entryData.title + ".\" In <em>" + entryData.booktitle + "<\/em>, " + entryData.year + ". " + ((entryData.doi)?"(<a href=http://dx.doi.org/" + entryData.doi + ">doi line</a>, ":"(");
         },
         article: function(entryData) {
             return this.authors2html(entryData.author) + "; \"" +
                 entryData.title + ".\" <em>" + entryData.journal + "<\/em>, " + entryData.volume +
                 ((entryData.number)?"(" + entryData.number + ")":"")+ ", " +
                 "pp. " + entryData.pages + ", " + entryData.year + ". " +
-                ((entryData.address)?entryData.address + ".":"") + ((entryData.doi)?"(<a href=http://dx.doi.org/" + entryData.doi + ">link</a>":"(");
+                ((entryData.address)?entryData.address + ".":"") + ((entryData.doi)?"(<a href=http://dx.doi.org/" + entryData.doi + ">doi link</a>, ":"(");
         },
         misc: function(entryData) {
             return this.authors2html(entryData.author) + " (" + entryData.year + "). " +
