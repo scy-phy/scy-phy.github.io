@@ -20,7 +20,8 @@ Also using https://github.com/vkaravir/bib-publication-list
 
 			<script type="text/javascript">
 			  var init = function() {
-   bibtexify("#bibtex", "pubTable", {});
+   //bibtexify("#bibtex", "pubTable", {});
+   bibtexify("http://bibs.scy-phy.net/bibs?author=tippenhauer,rocchetto", "pubTable");   
  };
  if (window.addEventListener) {
    window.addEventListener('load', init, false);
@@ -59,7 +60,7 @@ Also using https://github.com/vkaravir/bib-publication-list
 
 <h2>SCy-Phy Publications</h2>						    
 <table id="pubTable" class="display"></table>
-<pre id="bibtex">
+<!--<pre id="bibtex">
 
 @INPROCEEDINGS{tippenhauer14automatic,
 title = {Automatic Generation of Security Argument Graphs},
@@ -214,7 +215,7 @@ publisher = {ACM}
 
 
 
-</pre>
+</pre> -->
 <p>.JS and CSS of this list based on <a href=https://github.com/vkaravir/bib-publication-list>Bib-Publication-List</a>.</p>
 						    
 							</section>
