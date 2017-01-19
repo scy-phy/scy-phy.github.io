@@ -2535,10 +2535,10 @@ var bibtexify = (function($) {
             var itemStr = '';
             if (entryData.url && entryData.url.match(/.*\.pdf/)) {
                 itemStr += ' (<a title="PDF-version of this article" href="' +
-                            entryData.url + '">pdf<\/a>)';
+                            entryData.url + '">pdf<\/a>, ';
             } else if (entryData.url) {
                 itemStr += ' (<a title="This article online" href="' + entryData.url +
-                            '">link<\/a>)';
+                            '">link<\/a>, ';
             }
             return itemStr;
         },
@@ -2601,8 +2601,8 @@ var bibtexify = (function($) {
                 ((entryData.address)?entryData.address + ".":"") + ((entryData.doi)?"(<a href=http://dx.doi.org/" + entryData.doi + ">doi link</a>, ":"(");
         },
         misc: function(entryData) {
-            return this.authors2html(entryData.author) + " (" + entryData.year + "). " +
-                entryData.title + ". " +
+            return this.authors2html(entryData.author)  +
+                entryData.title + ", "+ entryData.year +". " +
                 ((entryData.howpublished)?entryData.howpublished + ". ":"") +
                 ((entryData.note)?entryData.note + ".":"");
         },
