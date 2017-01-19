@@ -2601,8 +2601,8 @@ var bibtexify = (function($) {
                 ((entryData.address)?entryData.address + ".":"") + ((entryData.doi)?"(<a href=http://dx.doi.org/" + entryData.doi + ">doi link</a>, ":"(");
         },
         misc: function(entryData) {
-            return this.authors2html(entryData.author)  +
-                entryData.title + ", "+ entryData.year +". " +
+            return this.authors2html(entryData.author) +"; \""  +
+                entryData.title + ",\" "+ entryData.year +". " +
                 ((entryData.howpublished)?entryData.howpublished + ". ":"") +
                 ((entryData.note)?entryData.note + ".":"");
         },
