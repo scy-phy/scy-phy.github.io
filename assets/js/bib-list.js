@@ -2467,6 +2467,7 @@ var bibtexify = (function($) {
             .replace(/\\'\{e\}/g, '&eacute;')
             .replace(/\\'a/g, '&aacute;')
             .replace(/\\'A/g, '&Aacute;')
+            .replace(/\\'i/g, '&iacute;')
             .replace(/\\`e/g, '&egrave;')
             .replace(/\\`\{e\}/g, '&egrave;')
             .replace(/\\`a/g, '&agrave;')
