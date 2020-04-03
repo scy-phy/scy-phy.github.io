@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>John Henry Castellanos | SCy-Phy</title>
+    <link>https://scy-phy.net/authors/john-henry-castellanos/</link>
+      <atom:link href="https://scy-phy.net/authors/john-henry-castellanos/index.xml" rel="self" type="application/rss+xml" />
+    <description>John Henry Castellanos</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>John Henry Castellanos</title>
+      <link>https://scy-phy.net/authors/john-henry-castellanos/</link>
+    </image>
+    
+    <item>
+      <title>Legacy-Compliant Data Authentication for Industrial Control System Traffic</title>
+      <link>https://scy-phy.net/publication/castellanos-17-legacy/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/castellanos-17-legacy/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

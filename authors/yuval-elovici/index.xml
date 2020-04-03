@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yuval Elovici | SCy-Phy</title>
+    <link>https://scy-phy.net/authors/yuval-elovici/</link>
+      <atom:link href="https://scy-phy.net/authors/yuval-elovici/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yuval Elovici</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Yuval Elovici</title>
+      <link>https://scy-phy.net/authors/yuval-elovici/</link>
+    </image>
+    
+    <item>
+      <title>HADES-IoT: A Practical Host-Based Anomaly Detection System for IoT Devices</title>
+      <link>https://scy-phy.net/publication/breitenbacher-19-hades/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/breitenbacher-19-hades/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Detection of Threats to IoT Devices using Scalable VPN-forwarded Honeypots</title>
+      <link>https://scy-phy.net/publication/tambe-19-vpn/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/tambe-19-vpn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ProfilIoT: A Machine Learning Approach for IoT Device Identification Based on Network Traffic Analysis (Poster)</title>
+      <link>https://scy-phy.net/publication/meidan-17-profiliot/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/meidan-17-profiliot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SIPHON: Towards Scalable High-Interaction Physical Honeypots</title>
+      <link>https://scy-phy.net/publication/guarnizo-17-siphon/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/guarnizo-17-siphon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Advanced Security Testbed Framework for Wearable IoT Devices</title>
+      <link>https://scy-phy.net/publication/siboni-16-testbed/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/siboni-16-testbed/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

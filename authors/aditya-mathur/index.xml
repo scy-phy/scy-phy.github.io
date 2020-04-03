@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aditya Mathur | SCy-Phy</title>
+    <link>https://scy-phy.net/authors/aditya-mathur/</link>
+      <atom:link href="https://scy-phy.net/authors/aditya-mathur/index.xml" rel="self" type="application/rss+xml" />
+    <description>Aditya Mathur</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Aditya Mathur</title>
+      <link>https://scy-phy.net/authors/aditya-mathur/</link>
+    </image>
+    
+    <item>
+      <title>SWaT: A Water Treatment Testbed for Research and Training on ICS Security</title>
+      <link>https://scy-phy.net/publication/mathur-16-swat/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/mathur-16-swat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Water Treatment, Distribution, and Electric Power Testbeds for Research in the Design of Secure Interdependent Critical Infrastructures</title>
+      <link>https://scy-phy.net/publication/tippenhauer-16-testbeds/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/tippenhauer-16-testbeds/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

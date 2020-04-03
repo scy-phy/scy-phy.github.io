@@ -1,0 +1,5961 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Nils Ole Tippenhauer">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Secure Cyber-Physical Systems Group at CISPA">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://scy-phy.net/publication/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#008dab">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="../css/academic.css">
+
+  
+  <link href="https://scy-phy.net/css/custom.css" rel="stylesheet">
+  
+  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-102288779-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-102288779-2', { 'anonymize_ip': true });
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+  <link rel="alternate" href="../publication/index.xml" type="application/rss+xml" title="SCy-Phy">
+  
+
+  <link rel="manifest" href="../index.webmanifest">
+  <link rel="icon" type="image/png" href="../img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="../img/icon-192.png">
+
+  <link rel="canonical" href="https://scy-phy.net/publication/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@notippenhauer">
+  <meta property="twitter:creator" content="@notippenhauer">
+  
+  <meta property="og:site_name" content="SCy-Phy">
+  <meta property="og:url" content="https://scy-phy.net/publication/">
+  <meta property="og:title" content="Publications | SCy-Phy">
+  <meta property="og:description" content="Secure Cyber-Physical Systems Group at CISPA"><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
+  <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
+  
+    <meta property="og:updated_time" content="2020-05-18T00:00:00&#43;00:00">
+  
+
+  
+
+
+
+
+  
+  
+  
+  
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha256-5VhCqFam2Cn+yjw61zbBNrbHVJ6SRydPeKopYlngbiQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha256-zQ0LblD/Af8vOppw18+2anxsuaz3pWYyVWi+bTvTH8Q=" crossorigin="anonymous">
+  
+  <script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#008dab",
+          "text": "#fff"
+        },
+        "button": {
+          "background": "#fff",
+          "text": "#008dab"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://www.cookiesandyou.com"
+      }
+    })});
+  </script>
+
+
+
+  
+
+
+
+
+
+  <title>Publications | SCy-Phy</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="../">SCy-Phy</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="../">SCy-Phy</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="../#hero"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="../#people"><span>People</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="../#featured"><span>Featured Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="../publication"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-palette" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+<div class="universal-wrapper pt-3">
+  <h1>Publications</h1>
+
+  
+
+  
+</div>
+
+
+
+<div class="universal-wrapper">
+  <div class="row">
+    <div class="col-lg-12">
+
+      
+
+      
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+
+      <div class="form-row mb-4">
+        <div class="col-auto">
+          <input type="search" class="filter-search" placeholder="Search..." autocapitalize="off"
+          autocomplete="off" autocorrect="off" role="textbox" spellcheck="false">
+        </div>
+        <div class="col-auto">
+          <select class="pub-filters pubtype-select form-control form-control-sm" data-filter-group="pubtype">
+            <option value="*">Type</option>
+            
+            
+            <option value=".pubtype-0">
+              Uncategorized
+            </option>
+            
+            <option value=".pubtype-1">
+              Conference paper
+            </option>
+            
+            <option value=".pubtype-2">
+              Journal article
+            </option>
+            
+            <option value=".pubtype-4">
+              Report
+            </option>
+            
+            <option value=".pubtype-6">
+              Book section
+            </option>
+            
+            <option value=".pubtype-7">
+              Thesis
+            </option>
+            
+          </select>
+        </div>
+        <div class="col-auto">
+          <select class="pub-filters form-control form-control-sm" data-filter-group="year">
+            <option value="*">Date</option>
+            
+            
+            
+            <option value=".year-2020">
+              2020
+            </option>
+            
+            <option value=".year-2019">
+              2019
+            </option>
+            
+            <option value=".year-2018">
+              2018
+            </option>
+            
+            <option value=".year-2017">
+              2017
+            </option>
+            
+            <option value=".year-2016">
+              2016
+            </option>
+            
+            <option value=".year-2015">
+              2015
+            </option>
+            
+            <option value=".year-2014">
+              2014
+            </option>
+            
+            <option value=".year-2013">
+              2013
+            </option>
+            
+            <option value=".year-2012">
+              2012
+            </option>
+            
+            <option value=".year-2011">
+              2011
+            </option>
+            
+            <option value=".year-2010">
+              2010
+            </option>
+            
+            <option value=".year-2009">
+              2009
+            </option>
+            
+            <option value=".year-2008">
+              2008
+            </option>
+            
+            <option value=".year-2007">
+              2007
+            </option>
+            
+            
+          </select>
+        </div>
+      </div>
+
+      <div id="container-publications">
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2020">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Daniele Antonioli, Nils Ole Tippenhauer, Kasper Rasmussen
+
+  </span> 
+  (2020).
+  <a href="../publication/antonioli-20-bias/">&ldquo;BIAS: Bluetooth Impersonation AttackS&rdquo;</a>.
+  <em>IEEE Symposium on Security and Privacy (S&amp;P)</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/antonioli-20-bias/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2019">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Hamid Reza Ghaeini, Matthew Chan, Raad Bahmani, Ferdinand Brasser  and, Luis Garcia, Jianying Zhou, Ahmad-Reza Sadeghi, Nils Ole Tippenhauer, Saman Zonouz
+
+  </span> 
+  (2019).
+  <a href="../publication/ghaeini-19-patt/">&ldquo;PAtt: Physics-based Attestation of Control Systems&rdquo;</a>.
+  Proceedings of  International Symposium on Research in Attacks, Intrusions and Defenses (RAID).
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.usenix.org/system/files/raid2019-ghaeini.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/ghaeini-19-patt/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="../project/internal-project/">
+    Project
+  </a>
+  
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://example.org" target="_blank" rel="noopener">
+    
+    Custom Link
+  </a>
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2019">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Daniele Antonioli, Nils Ole Tippenhauer, Kasper Rasmussen
+
+  </span> 
+  (2019).
+  <a href="../publication/antonioli-19-knob/">&ldquo;The KNOB is Broken: Exploiting Low Entropy in the Encryption Key Negotiation Of Bluetooth BR/EDR&rdquo;</a>.
+  <em>Proceedings of the USENIX Security Symposium (USENIX Security)</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/antonioli-19-knob/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2019">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Dominik Breitenbacher, Ivan Homoliak, Yan Lin Aung, Nils Ole Tippenhauer, Yuval Elovici
+
+  </span> 
+  (2019).
+  <a href="../publication/breitenbacher-19-hades/">&ldquo;HADES-IoT: A Practical Host-Based Anomaly Detection System for IoT Devices&rdquo;</a>.
+  <em>Proceedings of the Asia Conference on Information, Computer and Communications Security (ASIACCS)</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/breitenbacher-19-hades/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2019">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Jairo Giraldo, David Urbina, Alvaro Cárdenas, Nils Ole Tippenhauer
+
+  </span> 
+  (2019).
+  <a href="../publication/giraldo-19-hide/">&ldquo;Hide and Seek: An Architecture for Improving Attack Visibility in Industrial Control Systems&rdquo;</a>.
+  <em>Proceedings of the International Conference on Applied Cryptography and Network Security (ACNS)</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/giraldo-19-hide/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2019">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Amit Tambe, Yan Lin Aung, Ragav Sridharan, Martin Ochoa, Nils Ole Tippenhauer, Asaf Shabtai, Yuval Elovici
+
+  </span> 
+  (2019).
+  <a href="../publication/tambe-19-vpn/">&ldquo;Detection of Threats to IoT Devices using Scalable VPN-forwarded Honeypots&rdquo;</a>.
+  <em>ACM Conference on Data and Application Security and Privacy (CODASPY)</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/tambe-19-vpn/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1145/3292006.3300024" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2019">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Daniele Antonioli, Nils Ole Tippenhauer, Kasper Rasmussen
+
+  </span> 
+  (2019).
+  <a href="../publication/antonioli-19-nearby/">&ldquo;Nearby Threats: Reversing, Analyzing, and Attacking Google’s &#39;Nearby Connections&#39; on Android&rdquo;</a>.
+  <em>Proceedings of the Network and Distributed System Security Symposium (NDSS)</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/antonioli-19-nearby/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.14722/ndss.2019.23367" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2019">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Hamid Reza Ghaeini, Nils Ole Tippenhauer, Jianying Zhou
+
+  </span> 
+  (2019).
+  <a href="../publication/ghaeini-19-zera/">&ldquo;Zero Residual Attacks on Industrial Control Systems and Stateful Countermeasures&rdquo;</a>.
+  <em>Proceedings of the Conference on Availability, Reliability and Security</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://doi.acm.org/10.1145/3339252.3340331" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/ghaeini-19-zera/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1145/3339252.3340331" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-6 year-2019">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Nils Ole Tippenhauer
+
+  </span> 
+  (2019).
+  <a href="../publication/tippenhauer-2019-design/">&ldquo;Design and Realization of Testbeds for Security Research in the Industrial Internet of Things&rdquo;</a>.
+  <em>Security and Privacy Trends in the Industrial Internet of Things</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/tippenhauer-2019-design/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1007/978-3-030-12330-7_14" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2019">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  R. Taormina, S. Galelli, H. C. Douglas, N. O. Tippenhauer, E. Salomons, A. Ostfeld
+
+  </span> 
+  (2019).
+  <a href="../publication/taormina-19-toolbox/">&ldquo;A toolbox for assessing the impacts of cyber-physical attacks on water distribution systems&rdquo;</a>.
+  <em>Environmental Modelling &amp; Software</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/taormina-19-toolbox/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1016/j.envsoft.2018.11.008" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2018">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Xueou Wang, Xiaolu Hou, Ruben Rios, Per Hallgren, Nils Ole Tippenhauer, Martín Ochoa
+
+  </span> 
+  (2018).
+  <a href="../publication/wang-18-location/">&ldquo;Location Proximity Attacks against Mobile Targets: Analytical Bounds and Attacker Strategies&rdquo;</a>.
+  <em>Proceedings of the European Symposium on Research in Computer Security (ESORICS)</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/wang-18-location/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1007/978-3-319-98989-1_19" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2018">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Riccardo Taormina, Stefano Galelli, Nils Ole Tippenhauer, Elad Salomons, Avi Ostfeld, Demetrios G. Eliades, Mohsen Aghashahi, Raanju Sundararajan, Mohsen Pourahmadi, M. Katherine Banks, B. M. Brentan, Enrique Campbell, G. Lima, D. Manzi, D. Ayala-Cabrera, M. Herrera, I. Montalvo, J. Izquierdo, Jr, E. Luvizotto, Sarin E. Chandy, Amin Rasekh, Zachary A. Barker, Bruce Campbell, M. Ehsan Shafiee, Marcio Giacomoni, Nikolaos Gatsis, Ahmad Taha, Ahmed A. Abokifa, Kelsey Haddad, Cynthia S. Lo, Pratim Biswas, M. Fayzul K.and Kc, Bijay Pasha, Saravanakumar Lakshmanan Somasundaram, Mashor Housh, Ziv Ohar
+
+  </span> 
+  (2018).
+  <a href="../publication/taormina-18-battle/">&ldquo;The Battle Of The Attack Detection Algorithms: Disclosing Cyber Attacks On Water Distribution Networks&rdquo;</a>.
+  <em>Journal of Water Resources Planning and Management</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/taormina-18-battle/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1061/%28ASCE%29WR.1943-5452.0000969" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2018">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Jairo Giraldo, David Urbina, Alvaro Cardenas, Junia Valente, Mustafa Faisal, Justin Ruths, Nils Ole Tippenhauer, Henrik Sandberg, Richard Candell
+
+  </span> 
+  (2018).
+  <a href="../publication/giraldo-18-survey/">&ldquo;A Survey of Physics-Based Attack Detection in Cyber-Physical Systems&rdquo;</a>.
+  <em>ACM Computing Surveys (CSUR)</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/giraldo-18-survey/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1145/3203245" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2018">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Ragav Sridharan, Rajib Ranjan Maiti, Nils Ole Tippenhauer
+
+  </span> 
+  (2018).
+  <a href="../publication/sridharan-18-detection/">&ldquo;WADAC: Privacy-Preserving Anomaly Detection and Attack Classification on Wireless Traffic&rdquo;</a>.
+  <em>Proceedings of the ACM Conference on Security and Privacy in Wireless and Mobile Networks (WiSec)</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/sridharan-18-detection/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1145/3212480.3212495" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2018">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Ahnaf Siddiqi, Nils Ole Tippenhauer, Daisuke Mashima, Binbin Chen
+
+  </span> 
+  (2018).
+  <a href="../publication/siddiqi-18-epic/">&ldquo;On Practical Threat Scenario Testing in an Electric Power ICS Testbed&rdquo;</a>.
+  <em>Proceedings of the  Cyber-Physical System Security Workshop (CPSS), co-located with ASIACCS</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/siddiqi-18-epic/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1145/3198458.3198461" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2018">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Aymen Fakhreddine, Nils Ole Tippenhauer, Domenico Giustiniano
+
+  </span> 
+  (2018).
+  <a href="../publication/fakhreddine-18-proximity/">&ldquo;Design and Large-Scale Evaluation of WiFi Proximity Metrics&rdquo;</a>.
+  <em>Proceedings of European Wireless</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/fakhreddine-18-proximity/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2018">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Hamid Reza Ghaeini, Daniele Antonioli, Ferdinand Brasser, Ahmad-Reza Sadeghi, Nils Ole Tippenhauer
+
+  </span> 
+  (2018).
+  <a href="../publication/ghaeini-18-stateaware/">&ldquo;State-Aware Anomaly Detection for Industrial Control Systems&rdquo;</a>.
+  <em>Proceedings of  Security Track at the ACM Symposium on Applied Computing (SAC)</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/ghaeini-18-stateaware/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1145/3167132.3167305" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2017">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Daniele Antonioli, Sandra Siby, Nils Ole Tippenhauer
+
+  </span> 
+  (2017).
+  <a href="../publication/antonioli-17-eavesdropping/">&ldquo;Practical Evaluation of Passive COTS Eavesdropping in 802.11b/n/ac WLAN&rdquo;</a>.
+  <em>Proceedings of Conference on Cryptology And Network Security (CANS)</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/antonioli-17-eavesdropping/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2017">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Daniele Antonioli, Hamid Reza Ghaeini, Sridhar Adepu, Martín Ochoa, Nils Ole Tippenhauer
+
+  </span> 
+  (2017).
+  <a href="../publication/antonioli-17-s-3/">&ldquo;Gamifying ICS Security Training and Research: Design, Implementation, and Results of S3&rdquo;</a>.
+  <em>Proceedings of Workshop on Cyber-Physical Systems Security &amp; Privacy (SPC-CPS), co-located with CCS</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/antonioli-17-s-3/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1145/3140241.3140253" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2017">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Naman Govil, Anand Agrawal, Nils Ole Tippenhauer
+
+  </span> 
+  (2017).
+  <a href="../publication/govil-17-ladder/">&ldquo;On Ladder Logic Bombs in Industrial Control Systems&rdquo;</a>.
+  <em>Proceedings of the Workshop on the Security of Industrial Control Systems and of Cyber-Physical Systems (CyberICPS), co-located with ESORICS</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/govil-17-ladder/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1007/978-3-319-72817-9_8" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2017">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Rajib Ranjan Maiti, Sandra Siby, Ragav Sridharan, Nils Ole Tippenhauer
+
+  </span> 
+  (2017).
+  <a href="../publication/maiti-17-linklayer/">&ldquo;Link-Layer Device Type Classification on Encrypted Wireless Traffic with COTS Radios&rdquo;</a>.
+  <em>Proceedings of the European Symposium on Research in Computer Security (ESORICS)</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/maiti-17-linklayer/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1007/978-3-319-66399-9_14" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2017">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Nils Ole Tippenhauer
+
+  </span> 
+  (2017).
+  <a href="../publication/tippenhauer-17-digma/">&ldquo;Messmanipulationen in Steuerungssystemen&rdquo;</a>.
+  <em>Zeitschrift für Datenrecht und Informationssicherheit (DIGMA)</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/tippenhauer-17-digma/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2017">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  John Henry Castellanos, Daniele Antonioli, Nils Ole Tippenhauer, Martín Ochoa
+
+  </span> 
+  (2017).
+  <a href="../publication/castellanos-17-legacy/">&ldquo;Legacy-Compliant Data Authentication for Industrial Control System Traffic&rdquo;</a>.
+  <em>Proceedings of the Conference on Applied Cryptography and Network Security (ACNS)</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/castellanos-17-legacy/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1007/978-3-319-61204-1_33" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2017">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Marco Rocchetto, Nils Ole Tippenhauer
+
+  </span> 
+  (2017).
+  <a href="../publication/towards-17-rocchetto/">&ldquo;Towards Formal Security Analysis of Industrial Control Systems&rdquo;</a>.
+  <em>Proceedings of the ACM Asia Conference on Computer and Communications Security (ASIACCS)</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/towards-17-rocchetto/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1145/3052973.3053024" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2017">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Juan Guarnizo, Amit Tambe, Suman Sankar Bunia, Martín Ochoa, Nils Ole Tippenhauer, Asaf Shabtai, Yuval Elovici
+
+  </span> 
+  (2017).
+  <a href="../publication/guarnizo-17-siphon/">&ldquo;SIPHON: Towards Scalable High-Interaction Physical Honeypots&rdquo;</a>.
+  <em>Proceedings of the  Cyber-Physical System Security Workshop (CPSS), co-located with ASIACCS</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/guarnizo-17-siphon/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1145/3055186.3055192" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2017">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Yair Meidan, Michael Bohadana, Asaf Shabtai, Juan-David Guarnizo, Martín Ochoa, Nils Ole Tippenhauer, Yuval Elovici
+
+  </span> 
+  (2017).
+  <a href="../publication/meidan-17-profiliot/">&ldquo;ProfilIoT: A Machine Learning Approach for IoT Device Identification Based on Network Traffic Analysis (Poster)&rdquo;</a>.
+  <em>Proceedings of the Security Track at ACM Symposium on Applied Computing (SAC)</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/meidan-17-profiliot/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1145/3019612.3019878" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2017">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Sandra Siby, Rajib Ranjan Maiti, Nils Ole Tippenhauer
+
+  </span> 
+  (2017).
+  <a href="../publication/siby-17-iotscannershort/">&ldquo;IoTScanner: Detecting Privacy Threats in IoT Neighborhoods&rdquo;</a>.
+  <em>Proceedings of the Workshop on IoT Privacy, Trust, and Security (IoTPTS), co-located with ASIACCS</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/siby-17-iotscannershort/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1145/3055245.3055253" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-4 year-2017">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Sandra Siby, Rajib Ranjan Maiti, Nils Ole Tippenhauer
+
+  </span> 
+  (2017).
+  <a href="../publication/siby-17-iotscanner/">&ldquo;IoTScanner: Detecting and Classifying Privacy Threats in IoT Neighborhoods&rdquo;</a>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/1701.05007v1.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/siby-17-iotscanner/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2017">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Erik Wilhelm, Don MacKenzie, Yuren Zhou, Lynette Cheah, Nils Ole Tippenhauer
+
+  </span> 
+  (2017).
+  <a href="../publication/wilhelm-17-evaluation/">&ldquo;Evaluation of transport mode using wearable sensor data from 43,000 students&rdquo;</a>.
+  <em>Proceedings of Transportation Research Board Annual Meeting (TRB)</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/wilhelm-17-evaluation/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2016">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Kai Jansen, Nils Ole Tippenhauer, Christina Pöpper
+
+  </span> 
+  (2016).
+  <a href="../publication/jansen-16-gps/">&ldquo;Multi-Receiver GPS Spoofing Detection: Error Models and Realization&rdquo;</a>.
+  <em>Proceedings of the Annual Computer Security Applications Conference (ACSAC)</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/jansen-16-gps/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1145/2991079.2991092" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2016">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Shachar Siboni, Asaf Shabtai, Nils Ole Tippenhauer, Jemin Lee, Yuval Elovici
+
+  </span> 
+  (2016).
+  <a href="../publication/siboni-16-testbed/">&ldquo;Advanced Security Testbed Framework for Wearable IoT Devices&rdquo;</a>.
+  <em>Transactions on Internet Technology (TOIT)</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/siboni-16-testbed/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1145/2981546" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2016">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Erik Wilhelm, Sandra Siby, Yuren Zhou, Xavier J. S. Ashok, Melani Jayasuriya, Shaohui Foong, Jacksheeng Kee, Kristin Wood, Nils Ole Tippenhauer
+
+  </span> 
+  (2016).
+  <a href="../publication/wilhelm-16-wearable/">&ldquo;Wearable Environmental Sensors and Infrastructure for Mobile Large-scale Urban Deployment&rdquo;</a>.
+  <em>Sensors</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/wilhelm-16-wearable/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1109/JSEN.2016.2603158" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2016">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Nils Ole Tippenhauer, Kasper Bonne Rasmussen, Srdjan Capkun
+
+  </span> 
+  (2016).
+  <a href="../publication/tippenhauer-16-integrity/">&ldquo;Physical-Layer Integrity for Wireless Messages&rdquo;</a>.
+  <em>Computer Networks</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/tippenhauer-16-integrity/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1016/j.comnet.2016.06.021" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2016">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Daniele Antonioli, Anand Agrawal, Nils Ole Tippenhauer
+
+  </span> 
+  (2016).
+  <a href="../publication/antonioli-16-towards/">&ldquo;Towards High-Interaction Virtual ICS Honeypots-in-a-Box&rdquo;</a>.
+  <em>Proceedings of Workshop on Cyber-Physical Systems Security &amp; Privacy (SPC-CPS), co-located with CCS</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/antonioli-16-towards/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1145/2994487.2994493" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2016">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  David Urbina, Jairo Giraldo, Alvaro A. Cardenas, Nils Ole Tippenhauer, Junia Valente, Mustafa Faisal, Justin Ruths, Richard Candell, Henrik Sandberg
+
+  </span> 
+  (2016).
+  <a href="../publication/urbina-16-limiting/">&ldquo;Limiting The Impact of Stealthy Attacks on Industrial Control Systems&rdquo;</a>.
+  <em>Proceedings of the ACM Conference on Computer and Communications Security (CCS)</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/urbina-16-limiting/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1145/2976749.2978388" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2016">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Hamid Ghaeini, Nils Ole Tippenhauer
+
+  </span> 
+  (2016).
+  <a href="../publication/ghaeini-16-hamids/">&ldquo;HAMIDS: Hierarchical Monitoring Intrusion Detection System for Industrial Control Systems&rdquo;</a>.
+  <em>Proceedings of Workshop on Cyber-Physical Systems Security &amp; Privacy (SPC-CPS), co-located with CCS</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/ghaeini-16-hamids/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1145/2994487.2994492" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2016">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Marco Rocchetto, Nils Ole Tippenhauer
+
+  </span> 
+  (2016).
+  <a href="../publication/rocchetto-16-cpdy/">&ldquo;CPDY: Extending the Dolev-Yao Attacker with Physical-Layer Interactions&rdquo;</a>.
+  <em>Proceedings of the International Conference on Formal Engineering Methods (ICFEM)</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/rocchetto-16-cpdy/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1007/978-3-319-47846-3_12" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2016">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Marco Rocchetto, Nils Ole Tippenhauer
+
+  </span> 
+  (2016).
+  <a href="../publication/rocchetto-16-models/">&ldquo;On Attacker Models and Profiles for Cyber-Physical Systems&rdquo;</a>.
+  <em>Proceedings of the European Symposium on Research in Computer Security (ESORICS)</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/rocchetto-16-models/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1007/978-3-319-45741-3_22" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2016">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Xinshu Dong, Sumeet Jauhar, William G. Temple, Binbin Chen, Zbigniew Kalbarczyk, William H. Sanders, Nils Ole Tippenhauer, David M. Nicol
+
+  </span> 
+  (2016).
+  <a href="../publication/dong-16-cissa/">&ldquo;The Right Tool for the Job: a Case for Common Input Scenarios for Security Assessment&rdquo;</a>.
+  <em>Proceedings of Workshop on Graphical Models for Security (GraMSec)</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/dong-16-cissa/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1007/978-3-319-46263-9_3" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2016">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Riccardo Taormina, Stefano Galelli, Nils Ole Tippenhauer, Elad Salomons, Avi Ostfeld
+
+  </span> 
+  (2016).
+  <a href="../publication/taormina-16-assessing/">&ldquo;Assessing the effect of cyber-physical attacks on water distribution systems&rdquo;</a>.
+  <em>Proceedings of World Congress on Environmental &amp; Water Resources (EWRI)</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/taormina-16-assessing/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1061/9780784479865.046" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2016">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Nils Ole Tippenhauer, Martín Ochoa, Aditya Mathur
+
+  </span> 
+  (2016).
+  <a href="../publication/tippenhauer-16-testbeds/">&ldquo;Water Treatment, Distribution, and Electric Power Testbeds for Research in the Design of Secure Interdependent Critical Infrastructures&rdquo;</a>.
+  <em>Proceedings of Workshop on Security and Resilience of Cyber-Physical Infrastructures (SERECIN)</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://sites.google.com/site/serecin2016/programme/proceedings/serecin_2016.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/tippenhauer-16-testbeds/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2016">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Aditya Mathur, Nils Ole Tippenhauer
+
+  </span> 
+  (2016).
+  <a href="../publication/mathur-16-swat/">&ldquo;SWaT: A Water Treatment Testbed for Research and Training on ICS Security&rdquo;</a>.
+  <em>Proceedings of Workshop on Cyber-Physical Systems for Smart Water Networks (CySWater)</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/mathur-16-swat/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1109/CySWater.2016.7469060" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2016">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Riccardo Taormina, Stefano Galelli, Nils Ole Tippenhauer, Elad Salomons, Avi Ostfeld
+
+  </span> 
+  (2016).
+  <a href="../publication/taormina-16-simulation/">&ldquo;Simulation of Cyber-Physical Attacks on Water Distribution Systems with EPANET&rdquo;</a>.
+  <em>Proceedings of Singapore Cyber Security Conference (SG-CRC)</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/taormina-16-simulation/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.3233/978-1-61499-617-0-123" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2016">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Erik Wilhelm, Nils Ole Tippenhauer, Yuren Zhou, Nan Zhang
+
+  </span> 
+  (2016).
+  <a href="../publication/wilhelm-16-sensg/">&ldquo;SENSg: Large-Scale Deployment of Wearable Sensors for Trip and Transport Mode Logging&rdquo;</a>.
+  <em>Proceedings of Transportation Research Board Annual Meeting (TRB)</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/wilhelm-16-sensg/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2016">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Riccardo Taormina, Stefano Galelli, Nils Ole Tippenhauer, Elad Salomons, Avi Ostfeld
+
+  </span> 
+  (2016).
+  <a href="../publication/taormina-16-characterizing/">&ldquo;Characterizing Cyber-Physical Attacks on Water Distribution Systems&rdquo;</a>.
+  <em>Journal of Water Resources Planning and Management</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/taormina-16-characterizing/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1061/%28ASCE%29WR.1943-5452.0000749" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2016">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  David Urbina, Jairo Giraldo, Nils Ole Tippenhauer, Alvaro Cárdenas
+
+  </span> 
+  (2016).
+  <a href="../publication/urbina-16-fieldbus/">&ldquo;Attacking Fieldbus Communications in ICS: Applications to the SWaT Testbed&rdquo;</a>.
+  <em>Proceedings of Singapore Cyber Security Conference (SG-CRC)</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/urbina-16-fieldbus/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.3233/978-1-61499-617-0-75" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2015">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Daniele Antonioli, Nils Ole Tippenhauer
+
+  </span> 
+  (2015).
+  <a href="../publication/antonioli-15-minicps/">&ldquo;MiniCPS: A toolkit for security research on CPS Networks&rdquo;</a>.
+  <em>Proceedings of Workshop on Cyber-Physical Systems Security &amp; Privacy (SPC-CPS), co-located with CCS</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/antonioli-15-minicps/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1145/2808705.2808715" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2015">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Nils Ole Tippenhauer, Heinrich Luecken, Marc Kuhn, Srdjan Capkun
+
+  </span> 
+  (2015).
+  <a href="../publication/tippenhauer-15-uwb/">&ldquo;UWB Rapid-Bit-Exchange System for Distance Bounding&rdquo;</a>.
+  <em>Proceedings of the ACM Conference on Security and Privacy in Wireless and Mobile Networks (WiSec)</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/tippenhauer-15-uwb/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1145/2766498.2766504" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2014">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Nils Ole Tippenhauer, William G. Temple, An Hoa Vu, Binbin Chen, David M. Nicol, Zbigniew Kalbarczyk, William Sanders
+
+  </span> 
+  (2014).
+  <a href="../publication/tippenhauer-14-automatic/">&ldquo;Automatic Generation of Security Argument Graphs&rdquo;</a>.
+  <em>Proceedings of the IEEE Pacific Rim International Symposium on Dependable Computing (PRDC)</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/tippenhauer-14-automatic/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1109/PRDC.2014.13" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-0 year-2014">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Domenico Giustiniano, Stefan Mangold, Nils Ole Tippenhauer
+
+  </span> 
+  (2014).
+  <a href="../publication/giustiniano-2014-visible/">&ldquo;Visible light communication with flickering prevention&rdquo;</a>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/giustiniano-2014-visible/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2014">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  An Hoa Vu, Nils Ole Tippenhauer, Binbin Chen, David M. Nicol, Zbigniew Kalbarczyk
+
+  </span> 
+  (2014).
+  <a href="../publication/vu-14-cybersage/">&ldquo;CyberSAGE: A Tool for Automatic Security Assessment of Cyber-Physical Systems&rdquo;</a>.
+  <em>Proceedings of the Conference on Quantitative Evaluation of SysTems (QEST)</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/vu-14-cybersage/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1007/978-3-319-10696-0_29" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2013">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  William G. Temple, Binbin Chen, Nils Ole Tippenhauer
+
+  </span> 
+  (2013).
+  <a href="../publication/temple-13-delay/">&ldquo;Delay Makes a Difference: Smart Grid Resilience Under Remote Meter Disconnect Attack&rdquo;</a>.
+  <em>Proceedings of the IEEE Conference on Smart Grid Communications (SmartGridComm)</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/temple-13-delay/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1109/SmartGridComm.2013.6688001" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2013">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Nils Ole Tippenhauer, Luka Malisa, Aanjhan Ranganathan, Srdjan Capkun
+
+  </span> 
+  (2013).
+  <a href="../publication/tippenhauer-2013-limitations/">&ldquo;On Limitations of Friendly Jamming for Confidentiality&rdquo;</a>.
+  <em>Proceedings of the IEEE Symposium on Security and Privacy (S&amp;P)</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/tippenhauer-2013-limitations/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1109/SP.2013.21" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2013">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Binbin Chen, Zbigniew Kalbarczyk, David M. Nicol, William H. Sanders, Rui Tan, William G. Temple, Nils Ole Tippenhauer, An Hoa Vu, David K. Y. Yau
+
+  </span> 
+  (2013).
+  <a href="../publication/chen-13-flow/">&ldquo;Go with the Flow: Toward Workflow-Oriented Security Assessment&rdquo;</a>.
+  <em>Proceedings of New Security Paradigm Workshop (NSPW)</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/chen-13-flow/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1145/2535813.2535821" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2012">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Domenico Giustiniano, Nils Ole Tippenhauer, Stefan Mangold
+
+  </span> 
+  (2012).
+  <a href="../publication/giustiniano-12-low/">&ldquo;Low-complexity Visible Light Networking with LED-to-LED communication&rdquo;</a>.
+  <em>Proceedings of IFIP Wireless Days</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/giustiniano-12-low/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1109/WD.2012.6402861" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-7 year-2012">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Nils Ole Tippenhauer
+
+  </span> 
+  (2012).
+  <a href="../publication/tippenhauer-12-phd/">&ldquo;Physical-Layer Security Aspects of Wireless Localization&rdquo;</a>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/tippenhauer-12-phd/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.3929/ethz-a-7352063" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2012">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Nils Ole Tippenhauer, Domenico Giustiniano, Stefan Mangold
+
+  </span> 
+  (2012).
+  <a href="../publication/tippenhauer-2012-toys/">&ldquo;Toys communicating with LEDs: Enabling toy cars interaction&rdquo;</a>.
+  <em>Proceedings of Consumer Communications and Networking Conference (CCNC)</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/tippenhauer-2012-toys/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1109/CCNC.2012.6181045" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2012">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Aanjhan Ranganathan, Nils Ole Tippenhauer, Boris Skoric, Dave Singelé, Srdjan Čapkun
+
+  </span> 
+  (2012).
+  <a href="../publication/ranganathan-12-terrorist/">&ldquo;Design and Implementation of a Terrorist Fraud Resilient Distance Bounding System&rdquo;</a>.
+  <em>Proceedings of the European Symposium on Research in Computer Security (ESORICS)</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/ranganathan-12-terrorist/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1007/978-3-642-33167-1_24" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2011">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Nils Ole Tippenhauer, Christina Pöpper, Kasper Bonne Rasmussen, Srdjan Čapkun
+
+  </span> 
+  (2011).
+  <a href="../publication/tippenhauer-11-gps/">&ldquo;On the Requirements for Successful GPS Spoofing Attacks&rdquo;</a>.
+  <em>Proceedings of the ACM Conference on Computer and Communications Security (CCS)</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/tippenhauer-11-gps/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1145/2046707.2046719" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2011">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Christina Pöpper, Nils Ole Tippenhauer, Boris Danev, Srdjan Čapkun
+
+  </span> 
+  (2011).
+  <a href="../publication/poepper-11-manipulations/">&ldquo;Investigation of Signal and Message Manipulations on the Wireless Channel&rdquo;</a>.
+  <em>Proceedings of the European Symposium on Research in Computer Security (ESORICS)</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/poepper-11-manipulations/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1007/978-3-642-23822-2_3" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2010">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Marc Kuhn, Heinrich Luecken, Nils Ole Tippenhauer
+
+  </span> 
+  (2010).
+  <a href="../publication/kuhn-10-uwbdb/">&ldquo;UWB Impulse Radio Based Distance Bounding&rdquo;</a>.
+  <em>Proceedings of the Workshop on Positioning, Navigation and Communication (WPNC)</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/kuhn-10-uwbdb/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1109/WPNC.2010.5653801" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2010">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Srdjan Čapkun, Mario Čagalj, Ghassan Karame, Nils Ole Tippenhauer
+
+  </span> 
+  (2010).
+  <a href="../publication/capkun-tmc-10/">&ldquo;Integrity Regions: Authentication Through Presence in Wireless Networks&rdquo;</a>.
+  <em>IEEE Transactions on Mobile Computing</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/capkun-tmc-10/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1109/TMC.2010.127" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2009">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Nils Ole Tippenhauer, Kasper Bonne Rasmussen, Srdjan Čapkun
+
+  </span> 
+  (2009).
+  <a href="../publication/tippenhauer-09-temp/">&ldquo;Secure Ranging With Message Temporal Integrity&rdquo;</a>.
+  <em>Cryptology ePrint Archive: Report 2009/602</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/tippenhauer-09-temp/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-4 year-2009">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Nils Ole Tippenhauer, Kasper Bonne Rasmussen, Christina Pöpper, Srdjan Capkun, Srdjan Capkun, Srdjan Capkun
+
+  </span> 
+  (2009).
+  <a href="../publication/tippenhauer-2009-iphone/">&ldquo;iPhone and iPod location spoofing: Attacks on public WLAN-based positioning systems&rdquo;</a>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/tippenhauer-2009-iphone/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2009">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Nils Ole Tippenhauer, Srdjan Čapkun
+
+  </span> 
+  (2009).
+  <a href="../publication/tippenhauer-09-idbased/">&ldquo;ID-based Secure Distance Bounding and Localization&rdquo;</a>.
+  <em>Proceedings of the European Symposium on Research in Computer Security (ESORICS)</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/tippenhauer-09-idbased/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1007/978-3-642-04444-1_38" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2009">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Nils Ole Tippenhauer, Kasper Bonne Rasmussen, Christina Pöpper, Srdjan Čapkun
+
+  </span> 
+  (2009).
+  <a href="../publication/tippenhauer-09-attacks/">&ldquo;Attacks on Public WLAN-based Positioning&rdquo;</a>.
+  <em>Proceedings of the ACM Conference on Mobile Systems, Applications and Services (MobiSys)</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/tippenhauer-09-attacks/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1145/1555816.1555820" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-4 year-2008">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Nils Ole Tippenhauer, Srdjan Čapkun
+
+  </span> 
+  (2008).
+  <a href="../publication/tippenhauer-08-uwbsr-tr/">&ldquo;UWB-based Secure Ranging and Localization&rdquo;</a>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/tippenhauer-08-uwbsr-tr/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-7 year-2007">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="li-cite-author">
+    
+
+
+
+  
+  Nils Ole Tippenhauer
+
+  </span> 
+  (2007).
+  <a href="../publication/tippenhauer-07-smartmips/">&ldquo;Design and Cryptoanalysis of Multi-Precision Arithmetics on Smart Cards with SmartMIPS Architecture&rdquo;</a>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="https://scy-phy.net//publication/tippenhauer-07-smartmips/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+      </div>
+
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9WGInTKpjvv1DEKYUez0BFK8_K-8KUp0"></script>
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js" integrity="sha256-7vjlAeb8OaTrCXZkCNun9djzuB2owUsaO72kXaFDBJs=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="../js/academic.min.37431be2d92d7fb0160054761ab79602.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

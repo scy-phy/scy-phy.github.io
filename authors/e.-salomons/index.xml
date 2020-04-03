@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>E. Salomons | SCy-Phy</title>
+    <link>https://scy-phy.net/authors/e.-salomons/</link>
+      <atom:link href="https://scy-phy.net/authors/e.-salomons/index.xml" rel="self" type="application/rss+xml" />
+    <description>E. Salomons</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>E. Salomons</title>
+      <link>https://scy-phy.net/authors/e.-salomons/</link>
+    </image>
+    
+    <item>
+      <title>A toolbox for assessing the impacts of cyber-physical attacks on water distribution systems</title>
+      <link>https://scy-phy.net/publication/taormina-19-toolbox/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/taormina-19-toolbox/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

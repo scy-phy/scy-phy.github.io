@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Christina Pöpper | SCy-Phy</title>
+    <link>https://scy-phy.net/authors/christina-popper/</link>
+      <atom:link href="https://scy-phy.net/authors/christina-popper/index.xml" rel="self" type="application/rss+xml" />
+    <description>Christina Pöpper</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Dec 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Christina Pöpper</title>
+      <link>https://scy-phy.net/authors/christina-popper/</link>
+    </image>
+    
+    <item>
+      <title>Multi-Receiver GPS Spoofing Detection: Error Models and Realization</title>
+      <link>https://scy-phy.net/publication/jansen-16-gps/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/jansen-16-gps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Investigation of Signal and Message Manipulations on the Wireless Channel</title>
+      <link>https://scy-phy.net/publication/poepper-11-manipulations/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/poepper-11-manipulations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the Requirements for Successful GPS Spoofing Attacks</title>
+      <link>https://scy-phy.net/publication/tippenhauer-11-gps/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/tippenhauer-11-gps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Attacks on Public WLAN-based Positioning</title>
+      <link>https://scy-phy.net/publication/tippenhauer-09-attacks/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/tippenhauer-09-attacks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>iPhone and iPod location spoofing: Attacks on public WLAN-based positioning systems</title>
+      <link>https://scy-phy.net/publication/tippenhauer-2009-iphone/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/tippenhauer-2009-iphone/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

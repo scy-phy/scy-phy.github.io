@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>7 | SCy-Phy</title>
+    <link>https://scy-phy.net/publication_types/7/</link>
+      <atom:link href="https://scy-phy.net/publication_types/7/index.xml" rel="self" type="application/rss+xml" />
+    <description>7</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Mar 2012 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>7</title>
+      <link>https://scy-phy.net/publication_types/7/</link>
+    </image>
+    
+    <item>
+      <title>Physical-Layer Security Aspects of Wireless Localization</title>
+      <link>https://scy-phy.net/publication/tippenhauer-12-phd/</link>
+      <pubDate>Thu, 01 Mar 2012 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/tippenhauer-12-phd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design and Cryptoanalysis of Multi-Precision Arithmetics on Smart Cards with SmartMIPS Architecture</title>
+      <link>https://scy-phy.net/publication/tippenhauer-07-smartmips/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/tippenhauer-07-smartmips/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

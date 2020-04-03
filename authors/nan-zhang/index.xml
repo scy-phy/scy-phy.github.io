@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nan Zhang | SCy-Phy</title>
+    <link>https://scy-phy.net/authors/nan-zhang/</link>
+      <atom:link href="https://scy-phy.net/authors/nan-zhang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Nan Zhang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Nan Zhang</title>
+      <link>https://scy-phy.net/authors/nan-zhang/</link>
+    </image>
+    
+    <item>
+      <title>SENSg: Large-Scale Deployment of Wearable Sensors for Trip and Transport Mode Logging</title>
+      <link>https://scy-phy.net/publication/wilhelm-16-sensg/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/wilhelm-16-sensg/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

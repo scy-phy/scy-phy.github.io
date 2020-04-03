@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 | SCy-Phy</title>
+    <link>https://scy-phy.net/publication_types/2/</link>
+      <atom:link href="https://scy-phy.net/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>2</title>
+      <link>https://scy-phy.net/publication_types/2/</link>
+    </image>
+    
+    <item>
+      <title>A toolbox for assessing the impacts of cyber-physical attacks on water distribution systems</title>
+      <link>https://scy-phy.net/publication/taormina-19-toolbox/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/taormina-19-toolbox/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Battle Of The Attack Detection Algorithms: Disclosing Cyber Attacks On Water Distribution Networks</title>
+      <link>https://scy-phy.net/publication/taormina-18-battle/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/taormina-18-battle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Survey of Physics-Based Attack Detection in Cyber-Physical Systems</title>
+      <link>https://scy-phy.net/publication/giraldo-18-survey/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/giraldo-18-survey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Messmanipulationen in Steuerungssystemen</title>
+      <link>https://scy-phy.net/publication/tippenhauer-17-digma/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/tippenhauer-17-digma/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Advanced Security Testbed Framework for Wearable IoT Devices</title>
+      <link>https://scy-phy.net/publication/siboni-16-testbed/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/siboni-16-testbed/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Physical-Layer Integrity for Wireless Messages</title>
+      <link>https://scy-phy.net/publication/tippenhauer-16-integrity/</link>
+      <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/tippenhauer-16-integrity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wearable Environmental Sensors and Infrastructure for Mobile Large-scale Urban Deployment</title>
+      <link>https://scy-phy.net/publication/wilhelm-16-wearable/</link>
+      <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/wilhelm-16-wearable/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Characterizing Cyber-Physical Attacks on Water Distribution Systems</title>
+      <link>https://scy-phy.net/publication/taormina-16-characterizing/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/taormina-16-characterizing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Integrity Regions: Authentication Through Presence in Wireless Networks</title>
+      <link>https://scy-phy.net/publication/capkun-tmc-10/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/capkun-tmc-10/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

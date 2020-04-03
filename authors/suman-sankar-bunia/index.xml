@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Suman Sankar Bunia | SCy-Phy</title>
+    <link>https://scy-phy.net/authors/suman-sankar-bunia/</link>
+      <atom:link href="https://scy-phy.net/authors/suman-sankar-bunia/index.xml" rel="self" type="application/rss+xml" />
+    <description>Suman Sankar Bunia</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Apr 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Suman Sankar Bunia</title>
+      <link>https://scy-phy.net/authors/suman-sankar-bunia/</link>
+    </image>
+    
+    <item>
+      <title>SIPHON: Towards Scalable High-Interaction Physical Honeypots</title>
+      <link>https://scy-phy.net/publication/guarnizo-17-siphon/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/guarnizo-17-siphon/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Riccardo Taormina | SCy-Phy</title>
+    <link>https://scy-phy.net/authors/riccardo-taormina/</link>
+      <atom:link href="https://scy-phy.net/authors/riccardo-taormina/index.xml" rel="self" type="application/rss+xml" />
+    <description>Riccardo Taormina</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Riccardo Taormina</title>
+      <link>https://scy-phy.net/authors/riccardo-taormina/</link>
+    </image>
+    
+    <item>
+      <title>The Battle Of The Attack Detection Algorithms: Disclosing Cyber Attacks On Water Distribution Networks</title>
+      <link>https://scy-phy.net/publication/taormina-18-battle/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/taormina-18-battle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Assessing the effect of cyber-physical attacks on water distribution systems</title>
+      <link>https://scy-phy.net/publication/taormina-16-assessing/</link>
+      <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/taormina-16-assessing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Characterizing Cyber-Physical Attacks on Water Distribution Systems</title>
+      <link>https://scy-phy.net/publication/taormina-16-characterizing/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/taormina-16-characterizing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simulation of Cyber-Physical Attacks on Water Distribution Systems with EPANET</title>
+      <link>https://scy-phy.net/publication/taormina-16-simulation/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/taormina-16-simulation/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yuren Zhou | SCy-Phy</title>
+    <link>https://scy-phy.net/authors/yuren-zhou/</link>
+      <atom:link href="https://scy-phy.net/authors/yuren-zhou/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yuren Zhou</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Yuren Zhou</title>
+      <link>https://scy-phy.net/authors/yuren-zhou/</link>
+    </image>
+    
+    <item>
+      <title>Evaluation of transport mode using wearable sensor data from 43,000 students</title>
+      <link>https://scy-phy.net/publication/wilhelm-17-evaluation/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/wilhelm-17-evaluation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wearable Environmental Sensors and Infrastructure for Mobile Large-scale Urban Deployment</title>
+      <link>https://scy-phy.net/publication/wilhelm-16-wearable/</link>
+      <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/wilhelm-16-wearable/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SENSg: Large-Scale Deployment of Wearable Sensors for Trip and Transport Mode Logging</title>
+      <link>https://scy-phy.net/publication/wilhelm-16-sensg/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/wilhelm-16-sensg/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

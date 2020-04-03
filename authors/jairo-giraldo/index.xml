@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jairo Giraldo | SCy-Phy</title>
+    <link>https://scy-phy.net/authors/jairo-giraldo/</link>
+      <atom:link href="https://scy-phy.net/authors/jairo-giraldo/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jairo Giraldo</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Jairo Giraldo</title>
+      <link>https://scy-phy.net/authors/jairo-giraldo/</link>
+    </image>
+    
+    <item>
+      <title>Hide and Seek: An Architecture for Improving Attack Visibility in Industrial Control Systems</title>
+      <link>https://scy-phy.net/publication/giraldo-19-hide/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/giraldo-19-hide/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Survey of Physics-Based Attack Detection in Cyber-Physical Systems</title>
+      <link>https://scy-phy.net/publication/giraldo-18-survey/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/giraldo-18-survey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Limiting The Impact of Stealthy Attacks on Industrial Control Systems</title>
+      <link>https://scy-phy.net/publication/urbina-16-limiting/</link>
+      <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/urbina-16-limiting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Attacking Fieldbus Communications in ICS: Applications to the SWaT Testbed</title>
+      <link>https://scy-phy.net/publication/urbina-16-fieldbus/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/urbina-16-fieldbus/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

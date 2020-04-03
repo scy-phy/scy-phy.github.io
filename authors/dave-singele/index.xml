@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dave Singelé | SCy-Phy</title>
+    <link>https://scy-phy.net/authors/dave-singele/</link>
+      <atom:link href="https://scy-phy.net/authors/dave-singele/index.xml" rel="self" type="application/rss+xml" />
+    <description>Dave Singelé</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2012 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Dave Singelé</title>
+      <link>https://scy-phy.net/authors/dave-singele/</link>
+    </image>
+    
+    <item>
+      <title>Design and Implementation of a Terrorist Fraud Resilient Distance Bounding System</title>
+      <link>https://scy-phy.net/publication/ranganathan-12-terrorist/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/ranganathan-12-terrorist/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

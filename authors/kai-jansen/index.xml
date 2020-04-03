@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kai Jansen | SCy-Phy</title>
+    <link>https://scy-phy.net/authors/kai-jansen/</link>
+      <atom:link href="https://scy-phy.net/authors/kai-jansen/index.xml" rel="self" type="application/rss+xml" />
+    <description>Kai Jansen</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Dec 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Kai Jansen</title>
+      <link>https://scy-phy.net/authors/kai-jansen/</link>
+    </image>
+    
+    <item>
+      <title>Multi-Receiver GPS Spoofing Detection: Error Models and Realization</title>
+      <link>https://scy-phy.net/publication/jansen-16-gps/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/jansen-16-gps/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

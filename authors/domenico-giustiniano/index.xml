@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Domenico Giustiniano | SCy-Phy</title>
+    <link>https://scy-phy.net/authors/domenico-giustiniano/</link>
+      <atom:link href="https://scy-phy.net/authors/domenico-giustiniano/index.xml" rel="self" type="application/rss+xml" />
+    <description>Domenico Giustiniano</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 May 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Domenico Giustiniano</title>
+      <link>https://scy-phy.net/authors/domenico-giustiniano/</link>
+    </image>
+    
+    <item>
+      <title>Design and Large-Scale Evaluation of WiFi Proximity Metrics</title>
+      <link>https://scy-phy.net/publication/fakhreddine-18-proximity/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/fakhreddine-18-proximity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visible light communication with flickering prevention</title>
+      <link>https://scy-phy.net/publication/giustiniano-2014-visible/</link>
+      <pubDate>Wed, 01 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/giustiniano-2014-visible/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Low-complexity Visible Light Networking with LED-to-LED communication</title>
+      <link>https://scy-phy.net/publication/giustiniano-12-low/</link>
+      <pubDate>Thu, 01 Nov 2012 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/giustiniano-12-low/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Toys communicating with LEDs: Enabling toy cars interaction</title>
+      <link>https://scy-phy.net/publication/tippenhauer-2012-toys/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/tippenhauer-2012-toys/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

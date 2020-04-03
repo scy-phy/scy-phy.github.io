@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jianying Zhou | SCy-Phy</title>
+    <link>https://scy-phy.net/authors/jianying-zhou/</link>
+      <atom:link href="https://scy-phy.net/authors/jianying-zhou/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jianying Zhou</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Jianying Zhou</title>
+      <link>https://scy-phy.net/authors/jianying-zhou/</link>
+    </image>
+    
+    <item>
+      <title>PAtt: Physics-based Attestation of Control Systems</title>
+      <link>https://scy-phy.net/publication/ghaeini-19-patt/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/ghaeini-19-patt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zero Residual Attacks on Industrial Control Systems and Stateful Countermeasures</title>
+      <link>https://scy-phy.net/publication/ghaeini-19-zera/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/ghaeini-19-zera/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
