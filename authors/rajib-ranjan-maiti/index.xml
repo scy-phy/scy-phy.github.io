@@ -5,12 +5,20 @@
     <link>https://scy-phy.net/authors/rajib-ranjan-maiti/</link>
       <atom:link href="https://scy-phy.net/authors/rajib-ranjan-maiti/index.xml" rel="self" type="application/rss+xml" />
     <description>Rajib Ranjan Maiti</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Feb 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://scy-phy.net/img/thumbnail.png</url>
       <title>Rajib Ranjan Maiti</title>
       <link>https://scy-phy.net/authors/rajib-ranjan-maiti/</link>
     </image>
+    
+    <item>
+      <title>Apparatus and method for monitoring a wireless network</title>
+      <link>https://scy-phy.net/publication/tippenhauer-20-apparatus/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/tippenhauer-20-apparatus/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>WADAC: Privacy-Preserving Anomaly Detection and Attack Classification on Wireless Traffic</title>
