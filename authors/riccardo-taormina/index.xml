@@ -5,12 +5,20 @@
     <link>https://scy-phy.net/authors/riccardo-taormina/</link>
       <atom:link href="https://scy-phy.net/authors/riccardo-taormina/index.xml" rel="self" type="application/rss+xml" />
     <description>Riccardo Taormina</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 07 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://scy-phy.net/img/thumbnail.png</url>
       <title>Riccardo Taormina</title>
       <link>https://scy-phy.net/authors/riccardo-taormina/</link>
     </image>
+    
+    <item>
+      <title>Constrained Concealment Attacks against Reconstruction-based Anomaly Detectors in Industrial Control Systems</title>
+      <link>https://scy-phy.net/publication/erba-20-acsac/</link>
+      <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/erba-20-acsac/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>The Battle Of The Attack Detection Algorithms: Disclosing Cyber Attacks On Water Distribution Networks</title>
