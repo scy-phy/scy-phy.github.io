@@ -5,12 +5,28 @@
     <link>https://scy-phy.net/publication/</link>
       <atom:link href="https://scy-phy.net/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 07 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Aug 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://scy-phy.net/img/thumbnail.png</url>
       <title>Publications</title>
       <link>https://scy-phy.net/publication/</link>
     </image>
+    
+    <item>
+      <title>LIGHTBLUE: Automatic Profile-Aware Debloating of Bluetooth Stacks</title>
+      <link>https://scy-phy.net/publication/wu-21-lightblue/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/wu-21-lightblue/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>COTS Drone Detection Using Video Streaming Characteristics</title>
+      <link>https://scy-phy.net/publication/alsoliman-21-drones/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/alsoliman-21-drones/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Constrained Concealment Attacks against Reconstruction-based Anomaly Detectors in Industrial Control Systems</title>
@@ -49,6 +65,14 @@
       <link>https://scy-phy.net/publication/tippenhauer-20-apparatus/</link>
       <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
       <guid>https://scy-phy.net/publication/tippenhauer-20-apparatus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Decentralized Privacy-Preserving Proximity Tracing</title>
+      <link>https://scy-phy.net/publication/troncoso-2020-decentralized/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/troncoso-2020-decentralized/</guid>
       <description></description>
     </item>
     
