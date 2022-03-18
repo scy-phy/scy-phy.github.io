@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Giovanni Barbieri | SCy-Phy</title>
+    <link>https://scy-phy.net/authors/giovanni-barbieri/</link>
+      <atom:link href="https://scy-phy.net/authors/giovanni-barbieri/index.xml" rel="self" type="application/rss+xml" />
+    <description>Giovanni Barbieri</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://scy-phy.net/img/thumbnail.png</url>
+      <title>Giovanni Barbieri</title>
+      <link>https://scy-phy.net/authors/giovanni-barbieri/</link>
+    </image>
+    
+    <item>
+      <title>Assessing the Use of Insecure ICS Protocols via IXP Network Traffic Analysis</title>
+      <link>https://scy-phy.net/publication/barbieri-21-assessing/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/barbieri-21-assessing/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -70,6 +70,8 @@
     
 
     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
 
     
 
@@ -206,44 +208,6 @@
   
 
 
-
-
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-102288779-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-      dataLayer.push(arguments);
-  }
-
-  function trackOutboundLink(url, target) {
-    gtag('event', 'click', {
-         'event_category': 'outbound',
-         'event_label': url,
-         'transport_type': 'beacon',
-         'event_callback': function () {
-           if (target !== '_blank') {
-             document.location = url;
-           }
-         }
-    });
-    console.debug("Outbound link clicked: " + url);
-  }
-
-  function onClickCallback(event) {
-    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
-      return;
-    }
-    trackOutboundLink(event.target, event.target.getAttribute('target'));  
-  }
-
-  gtag('js', new Date());
-  gtag('config', 'UA-102288779-2', { 'anonymize_ip': true });
-
-  
-  document.addEventListener('click', onClickCallback, false);
-</script>
 
 
   
@@ -682,12 +646,12 @@
 <div class="row">
   <div class="col-xs-12 col-md-4 section-heading">
     <h1>People</h1> 
-    <p>We are looking for a prospective PhD student in 2021! Please write to <a href="mailto:tippenhauer@cispa.saarland">tippenhauer@cispa.saarland</a></p>
+    <p>We are looking for a prospective PhD student in 2021! Please write to <a href="mailto:tippenhauer@cispa.de">tippenhauer@cispa.de</a></p>
   </div>
   <div class="col-xs-12 col-md-8">
     
     <div class= 'people-container'>
-    <h2>Nils Ole Tippenhauer</h2>
+    <h2>Dr. Nils Ole Tippenhauer</h2>
     <p style='font-weight:bold;'>Group leader</p>
     <div class='people-image'>
       
@@ -709,7 +673,7 @@
 		<i class="ai ai-google-scholar big-icon"></i>
 		</a>  
     
-        <a href="mailto:tippenhauer@cispa.saarland" title="E-Mail" target="_top">
+        <a href="mailto:tippenhauer@cispa.de" title="E-Mail" target="_top">
     <i class="fa fa-envelope big-icon"></i>
     </a> 
      
@@ -718,7 +682,7 @@
       </div>
     </div>
     <div class='people-description'>
-      <p>I am interested in information security aspects of practical systems. In particular, I am working on physcial-layer attacks and defenses for Industrial Systems, low-layer wireless security, and various other embedded systems security topics.</p>
+      <p>I am interested in information security aspects of practical systems. In particular, I am working on physical-layer attacks and defenses for Industrial Systems, low-layer wireless security, and various other embedded systems security topics.</p>
       
       
       
@@ -768,7 +732,7 @@
     <p style='font-weight:bold;'>PhD student</p>
     <div class='people-image'>
       
-        <img src="./img/members/" alt="Drawing" />
+        <img src="./img/members/till.png" alt="Drawing" />
       
       <div class='social-links'>
      
@@ -794,7 +758,7 @@
     </div>
   
     <div class= 'people-container'>
-    <h2>Hamid Ghaeini</h2>
+    <h2>Dr. Hamid Ghaeini</h2>
     <p style='font-weight:bold;'>PostDoc</p>
     <div class='people-image'>
       
@@ -821,22 +785,22 @@
     </div>
   
     <div class= 'people-container'>
-    <h2>Anne Müller</h2>
-    <p style='font-weight:bold;'>Graduate Researcher</p>
+    <h2>Dr. John H. Castellanos</h2>
+    <p style='font-weight:bold;'>PostDoc</p>
     <div class='people-image'>
       
-        <img src="./img/members/anne.png" alt="Drawing" />
+        <img src="./img/members/john2.png" alt="Drawing" />
       
       <div class='social-links'>
     
-        <a href="https://twitter.com/@Anne89246771" title="Twitter" target="_blank">
+        <a href="https://twitter.com/jhcastel" title="Twitter" target="_blank">
 		<i class="fab fa-twitter big-icon"></i>
 		</a>  
-        <a href="https://github.com/Anne-Me" title="Github" target="_blank">
+        <a href="https://github.com/jhcastel" title="Github" target="_blank">
 		<i class="fab fa-github big-icon"></i>   
 		</a>   
     
-        <a href="mailto:anne.mueller@cispa.de" title="E-Mail" target="_top">
+        <a href="mailto:john.castellanos@cispa.de" title="E-Mail" target="_top">
     <i class="fa fa-envelope big-icon"></i>
     </a> 
      
@@ -845,7 +809,7 @@
       </div>
     </div>
     <div class='people-description'>
-      <p>Anne is currently working on industrial communication protocols.</p>
+      <p>John earned his PhD in 2021 in Information Systems Technology and Design at the Singapore University of Technology and Design (SUTD). His research comprises the study of detection, impact analysis and recovery of cyber-attacks for cyber-physical systems.</p>
       
       
       
@@ -914,26 +878,19 @@
     </div>
   
     <div class= 'people-container'>
-    <h2>Amir Heinisch</h2>
-    <p style='font-weight:bold;'>BSc student</p>
+    <h2>Anirudh Upadhya</h2>
+    <p style='font-weight:bold;'>MSc student</p>
     <div class='people-image'>
       
-      <a href="https://amir-heinisch.de" title="Website" target="_top">
-        
-        <img src="./img/members/amir.png" alt="Drawing" />
-      
-      </a>
+        <img src="./img/members/Anirudh.png" alt="Drawing" />
       
       <div class='social-links'>
-    
-        <a href="https://twitter.com/@amir_heinisch" title="Twitter" target="_blank">
-		<i class="fab fa-twitter big-icon"></i>
-		</a>  
-        <a href="https://github.com/amir-heinisch" title="Github" target="_blank">
+     
+        <a href="https://github.com/anirudh-upadhya" title="Github" target="_blank">
 		<i class="fab fa-github big-icon"></i>   
 		</a>   
     
-        <a href="mailto:mail@amir-heinisch.de" title="E-Mail" target="_top">
+        <a href="mailto:anirudh.upadhya10@gmail.com" title="E-Mail" target="_top">
     <i class="fa fa-envelope big-icon"></i>
     </a> 
      
@@ -942,13 +899,80 @@
       </div>
     </div>
     <div class='people-description'>
-      <p>Amir is currently writing his BSc thesis on secure motor controllers</p>
+      <p>Anirudh is a MSc student from Saarland University, working on embedded security of automotive and industrial control systems. He&rsquo;s currently writing his master thesis on run-time monitoring of safety and security critical functions of a small scale motor controller</p>
+      
+      
+      
+    </div>
+    <div class = 'spacer'></div>
+    </div>
+  
+    <div class= 'people-container'>
+    <h2>Davide Berardi</h2>
+    <p style='font-weight:bold;'>Visiting PhD student</p>
+    <div class='people-image'>
+      
+      <a href="http://cs.unibo.it/~davide.berardi6" title="Website" target="_top">
+        
+        <img src="./img/members/davide.png" alt="Drawing" />
+      
+      </a>
+      
+      <div class='social-links'>
+     
+        <a href="https://github.com/berdav" title="Github" target="_blank">
+		<i class="fab fa-github big-icon"></i>   
+		</a>  
+        <a href="https://scholar.google.com/oHDgrJQAAAAJ" title="Google Scholar" target="_blank">
+		<i class="ai ai-google-scholar big-icon"></i>
+		</a>  
+    
+        <a href="mailto:berardi.dav@gmail.com" title="E-Mail" target="_top">
+    <i class="fa fa-envelope big-icon"></i>
+    </a> 
+     
+    
+        <span class="stretch"></span>
+      </div>
+    </div>
+    <div class='people-description'>
+      <p>Davide, a Ph.D. student at the University of Bologna since November 2018, is working on the Security of Industrial Networks.  His research comprises the analysis of virtualization technologies to enhance the security of industrial protocols.</p>
       
       
       
         
-        <a href=https://amir-heinisch.de title="Website" target="_top">Personal website</a>
+        <a href=http://cs.unibo.it/~davide.berardi6 title="Website" target="_top">Personal website</a>
         
+      
+    </div>
+    <div class = 'spacer'></div>
+    </div>
+  
+    <div class= 'people-container'>
+    <h2>Lorenzo Rinieri</h2>
+    <p style='font-weight:bold;'>Visiting MSc student</p>
+    <div class='people-image'>
+      
+        <img src="./img/members/lorenzo.png" alt="Drawing" />
+      
+      <div class='social-links'>
+     
+        <a href="https://github.com/Lori-Ringhio97" title="Github" target="_blank">
+		<i class="fab fa-github big-icon"></i>   
+		</a>   
+    
+        <a href="mailto:lorenzo.rinieri@studio.unibo.it" title="E-Mail" target="_top">
+    <i class="fa fa-envelope big-icon"></i>
+    </a> 
+     
+    
+        <span class="stretch"></span>
+      </div>
+    </div>
+    <div class='people-description'>
+      <p>Lorenzo is a visiting student form the University of Bologna. He is currently writing his MSc thesis on certificate management in the OPC UA ecosystem.</p>
+      
+      
       
     </div>
     <div class = 'spacer'></div>
@@ -1511,6 +1535,38 @@
     
     <div class='alumni-container'>
       
+	<img class='alumni-image' src="./img/alumni/anne.png" alt="Avatar" />
+      
+      
+      <div class='alumni-name'>
+        Anne Müller
+      </div>
+      
+      <div class='alumni-position'>
+        Anne worked as graduate researcher on the security of the OPC UA ecosystem.
+      </div>
+    </div>
+    
+    
+    
+    <div class='alumni-container'>
+      
+	<img class='alumni-image' src="./img/alumni/amir.png" alt="Avatar" />
+      
+      
+      <div class='alumni-name'>
+        Amir Heinisch
+      </div>
+      
+      <div class='alumni-position'>
+        Amir wrote his BSc thesis on secure motor controllers in 20/21.
+      </div>
+    </div>
+    
+    
+    
+    <div class='alumni-container'>
+      
 	<img class='alumni-image' src="./img/alumni/max.png" alt="Avatar" />
       
       
@@ -1937,7 +1993,7 @@
       
       <li>
         <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
-        <span id="person-email"><a href="mailto:tippenhauer@cispa.saarland">tippenhauer@cispa.saarland</a></span>
+        <span id="person-email"><a href="mailto:tippenhauer@cispa.de">tippenhauer@cispa.de</a></span>
       </li>
       
 
@@ -1948,7 +2004,7 @@
         
         <li>
           <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
-          <span id="person-address">Stuhlsatzenhaus 5, Saarbrucken, 66123</span>
+          <span id="person-address">Kaiserstrasse 170, St. Ingbert, 66386</span>
         </li>
       
 
@@ -1970,12 +2026,12 @@
 
     
     <div class="d-none">
-      <input id="map-provider" value="1">
-      <input id="map-lat" value="49.259515">
-      <input id="map-lng" value="7.051884">
-      <input id="map-dir" value="Stuhlsatzenhaus 5, Saarbrucken, 66123">
+      <input id="map-provider" value="2">
+      <input id="map-lat" value="49.281623">
+      <input id="map-lng" value="7.123212">
+      <input id="map-dir" value="Kaiserstrasse 170, St. Ingbert, 66386">
       <input id="map-zoom" value="15">
-      <input id="map-api-key" value="AIzaSyC9WGInTKpjvv1DEKYUez0BFK8_K-8KUp0">
+      <input id="map-api-key" value="">
     </div>
     <div id="map"></div>
     
@@ -2012,10 +2068,7 @@
 
     
     
-      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9WGInTKpjvv1DEKYUez0BFK8_K-8KUp0"></script>
-      
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js" integrity="sha256-7vjlAeb8OaTrCXZkCNun9djzuB2owUsaO72kXaFDBJs=" crossorigin="anonymous"></script>
-      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
     
 
     

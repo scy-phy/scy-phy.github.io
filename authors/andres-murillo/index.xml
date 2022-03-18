@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Andres Murillo | SCy-Phy</title>
+    <link>https://scy-phy.net/authors/andres-murillo/</link>
+      <atom:link href="https://scy-phy.net/authors/andres-murillo/index.xml" rel="self" type="application/rss+xml" />
+    <description>Andres Murillo</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://scy-phy.net/img/thumbnail.png</url>
+      <title>Andres Murillo</title>
+      <link>https://scy-phy.net/authors/andres-murillo/</link>
+    </image>
+    
+    <item>
+      <title>Co-Simulating Physical Processes and Network Data for High-Fidelity Cyber-Security Experiments</title>
+      <link>https://scy-phy.net/publication/murillo-20-cosimulating/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/murillo-20-cosimulating/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
