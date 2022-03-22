@@ -5,12 +5,36 @@
     <link>https://scy-phy.net/authors/nils-ole-tippenhauer/</link>
       <atom:link href="https://scy-phy.net/authors/nils-ole-tippenhauer/index.xml" rel="self" type="application/rss+xml" />
     <description>Nils Ole Tippenhauer</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Aug 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://scy-phy.net/img/thumbnail.png</url>
       <title>Nils Ole Tippenhauer</title>
       <link>https://scy-phy.net/authors/nils-ole-tippenhauer/</link>
     </image>
+    
+    <item>
+      <title>Hiding in Plain Sight? On the Efficacy of Power Side Channel-Based Control Flow Monitoring</title>
+      <link>https://scy-phy.net/publication/han-22-hiding/</link>
+      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/han-22-hiding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Constrained Proximity Attacks on Mobile Targets</title>
+      <link>https://scy-phy.net/publication/wang-22-constrained/</link>
+      <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/wang-22-constrained/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blurtooth: Exploiting cross-transport key derivation in Bluetooth classic and Bluetooth low energy</title>
+      <link>https://scy-phy.net/publication/antonioli-22-blurtooth/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/antonioli-22-blurtooth/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>LIGHTBLUE: Automatic Profile-Aware Debloating of Bluetooth Stacks</title>
@@ -41,6 +65,14 @@
       <link>https://scy-phy.net/publication/alsoliman-21-drones/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://scy-phy.net/publication/alsoliman-21-drones/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>COTS Drone Detection using Video Streaming Characteristics</title>
+      <link>https://scy-phy.net/publication/alsoliman-21-drone/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/alsoliman-21-drone/</guid>
       <description></description>
     </item>
     
