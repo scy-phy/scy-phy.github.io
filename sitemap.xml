@@ -1,1458 +1,876 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://scy-phy.net/talk/example/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/talk/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication_types/1/</loc>
     <lastmod>2022-04-23T09:07:43+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/</loc>
     <lastmod>2022-04-23T09:07:43+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/han-22-hiding/</loc>
     <lastmod>2022-03-18T10:26:45+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/matthew-chan/</loc>
     <lastmod>2022-03-18T10:26:45+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/nils-ole-tippenhauer/</loc>
     <lastmod>2022-04-23T09:07:43+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication_types/</loc>
     <lastmod>2022-04-23T09:07:43+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/</loc>
     <lastmod>2022-04-23T09:07:43+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/saman-zonouz/</loc>
     <lastmod>2022-03-18T10:26:45+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/yi-han/</loc>
     <lastmod>2022-03-18T10:26:45+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/zahra-aref/</loc>
     <lastmod>2022-03-18T10:26:45+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication_types/2/</loc>
     <lastmod>2022-03-18T10:26:45+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/wang-22-constrained/</loc>
     <lastmod>2022-03-18T10:26:45+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/martin-ochoa/</loc>
     <lastmod>2022-03-18T10:26:45+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/ruben-rios/</loc>
     <lastmod>2022-03-18T10:26:45+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/xiaolu-hou/</loc>
     <lastmod>2022-03-18T10:26:45+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/xueou-wang/</loc>
     <lastmod>2022-03-18T10:26:45+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/antonioli-22-blurtooth/</loc>
     <lastmod>2022-03-18T10:26:45+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/daniele-antonioli/</loc>
     <lastmod>2022-03-18T10:26:45+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/kasper-rasmussen/</loc>
     <lastmod>2022-03-18T10:26:45+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/mathias-payer/</loc>
     <lastmod>2022-03-18T10:26:45+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/antonio-bianchi/</loc>
     <lastmod>2021-01-22T09:58:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/dave-jing-tian/</loc>
     <lastmod>2021-01-22T09:58:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/dongyan-xu/</loc>
     <lastmod>2021-01-22T09:58:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/jianliang-wu/</loc>
     <lastmod>2021-01-22T09:58:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/wu-21-lightblue/</loc>
     <lastmod>2021-01-22T09:58:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/ruoyu-wu/</loc>
     <lastmod>2021-01-22T09:58:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/barbieri-21-assessing/</loc>
     <lastmod>2021-08-05T10:25:49+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/federico-turrin/</loc>
     <lastmod>2021-08-05T10:25:49+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/giovanni-barbieri/</loc>
     <lastmod>2021-08-05T10:25:49+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/mauro-conti/</loc>
     <lastmod>2022-03-18T10:26:45+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication_types/6/</loc>
     <lastmod>2021-08-05T10:25:49+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/anas-alsoliman/</loc>
     <lastmod>2022-03-18T10:26:45+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/tippenhauer-2021-detection/</loc>
     <lastmod>2021-08-05T10:25:49+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/binbin-chen/</loc>
     <lastmod>2022-04-23T09:07:43+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://scy-phy.net/publication/alsoliman-21-drones/</loc>
-    <lastmod>2021-01-22T09:58:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/alsoliman-21-drone/</loc>
     <lastmod>2022-03-18T10:26:45+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://scy-phy.net/publication/alsoliman-21-drones/</loc>
+    <lastmod>2021-01-22T09:58:05+01:00</lastmod>
+  </url><url>
     <loc>https://scy-phy.net/authors/cristina-m.-pinotti/</loc>
     <lastmod>2022-03-18T10:26:45+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/cristina-pinotti/</loc>
     <lastmod>2021-01-22T09:58:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/daisuke-mashima/</loc>
     <lastmod>2022-04-23T09:07:43+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/david-m.-nicol/</loc>
     <lastmod>2022-04-23T09:07:43+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/giulio-rigoni/</loc>
     <lastmod>2022-03-18T10:26:45+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/marco-levorato/</loc>
     <lastmod>2022-03-18T10:26:45+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/tippenhauer-21-vbump/</loc>
     <lastmod>2022-04-23T09:07:43+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/alessandro-erba/</loc>
     <lastmod>2020-10-31T08:54:36+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/erba-2020-concealment/</loc>
     <lastmod>2020-10-31T08:44:33+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/marcello-pogliani/</loc>
     <lastmod>2020-10-31T08:44:33+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/michele-carminati/</loc>
     <lastmod>2020-10-31T08:44:33+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/riccardo-taormina/</loc>
     <lastmod>2021-08-05T10:25:49+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/stefano-galelli/</loc>
     <lastmod>2021-08-05T10:25:49+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/stefano-zanero/</loc>
     <lastmod>2020-10-31T08:44:33+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/schlueter-20-differential/</loc>
     <lastmod>2020-11-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/kerstin-lemke-rust/</loc>
     <lastmod>2020-11-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/till-schluter/</loc>
     <lastmod>2020-11-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/turrin-20-analysis/</loc>
     <lastmod>2020-10-31T08:54:36+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/antonioli-20-bias/</loc>
     <lastmod>2020-05-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication_types/0/</loc>
     <lastmod>2021-01-22T09:58:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/tippenhauer-20-apparatus/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/ragav-sridharan/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/rajib-ranjan-maiti/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/siby-sandra/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/alain-barrat/</loc>
     <lastmod>2021-01-22T09:58:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/andres-murillo/</loc>
     <lastmod>2021-08-05T10:25:49+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/apostolos-pyrgelis/</loc>
     <lastmod>2021-01-22T09:58:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/aysajan-abidin/</loc>
     <lastmod>2021-01-22T09:58:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/bart-preneel/</loc>
     <lastmod>2021-01-22T09:58:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/carmela-troncoso/</loc>
     <lastmod>2021-01-22T09:58:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/cas-cremers/</loc>
     <lastmod>2021-01-22T09:58:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/ciro-cattuto/</loc>
     <lastmod>2021-01-22T09:58:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/murillo-20-cosimulating/</loc>
     <lastmod>2021-08-05T10:25:49+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/dario-fiore/</loc>
     <lastmod>2021-01-22T09:58:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/david-basin/</loc>
     <lastmod>2021-01-22T09:58:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/troncoso-2020-decentralized/</loc>
     <lastmod>2021-01-22T09:58:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/dennis-jackson/</loc>
     <lastmod>2021-01-22T09:58:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/edouard-bugnion/</loc>
     <lastmod>2021-01-22T09:58:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/james-larus/</loc>
     <lastmod>2021-01-22T09:58:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/jan-beutel/</loc>
     <lastmod>2021-01-22T09:58:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/jean-pierre-hubaux/</loc>
     <lastmod>2021-01-22T09:58:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/jose-pereira/</loc>
     <lastmod>2021-01-22T09:58:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/kenneth-paterson/</loc>
     <lastmod>2021-01-22T09:58:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/antonioli-20-tops/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/ludovic-barman/</loc>
     <lastmod>2021-01-22T09:58:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/manuel-barbosa/</loc>
     <lastmod>2021-01-22T09:58:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/marc-roeschlin/</loc>
     <lastmod>2021-01-22T09:58:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/marcel-salathe/</loc>
     <lastmod>2021-01-22T09:58:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/michael-backes/</loc>
     <lastmod>2021-01-22T09:58:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/michael-veale/</loc>
     <lastmod>2021-01-22T09:58:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/nigel-smart/</loc>
     <lastmod>2021-01-22T09:58:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/nils-tippenhauer/</loc>
     <lastmod>2021-08-05T10:25:49+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/patrick-leu/</loc>
     <lastmod>2021-01-22T09:58:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/reuben-binns/</loc>
     <lastmod>2021-01-22T09:58:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/rui-oliveira/</loc>
     <lastmod>2021-01-22T09:58:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/seda-gurses/</loc>
     <lastmod>2021-01-22T09:58:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/srdjan-capkun/</loc>
     <lastmod>2021-01-22T09:58:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/sylvain-chatel/</loc>
     <lastmod>2021-01-22T09:58:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/theresa-stadler/</loc>
     <lastmod>2021-01-22T09:58:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/wouter-lueks/</loc>
     <lastmod>2021-01-22T09:58:05+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/ahmad-reza-sadeghi/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/ferdinand-brasser-and/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/hamid-reza-ghaeini/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/jianying-zhou/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/luis-garcia/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/ghaeini-19-patt/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/raad-bahmani/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/tags/source-themes/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/tags/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/antonioli-19-knob/</loc>
     <lastmod>2019-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/dominik-breitenbacher/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/breitenbacher-19-hades/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/ivan-homoliak/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/yan-lin-aung/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/yuval-elovici/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/alvaro-cardenas/</loc>
     <lastmod>2019-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/david-urbina/</loc>
     <lastmod>2019-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/giraldo-19-hide/</loc>
     <lastmod>2019-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/jairo-giraldo/</loc>
     <lastmod>2019-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/amit-tambe/</loc>
     <lastmod>2019-03-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/asaf-shabtai/</loc>
     <lastmod>2019-03-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/tambe-19-vpn/</loc>
     <lastmod>2019-03-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/antonioli-19-nearby/</loc>
     <lastmod>2019-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/taormina-19-toolbox/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/a.-ostfeld/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/tippenhauer-2019-design/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/e.-salomons/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/h.-c.-douglas/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/tags/industrial-control-system/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/n.-o.-tippenhauer/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/r.-taormina/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/s.-galelli/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/tags/stateful-anomaly-detection/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/tags/stealthy-attack/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/ghaeini-19-zera/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/wang-18-location/</loc>
     <lastmod>2018-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/per-hallgren/</loc>
     <lastmod>2018-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/ahmad-taha/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/ahmed-a.-abokifa/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/amin-rasekh/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/avi-ostfeld/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/b.-m.-brentan/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/bruce-campbell/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/cynthia-s.-lo/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/d.-ayala-cabrera/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/d.-manzi/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/demetrios-g.-eliades/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/elad-salomons/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/enrique-campbell/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/g.-lima/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/i.-montalvo/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/j.-izquierdo/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/jr-e.-luvizotto/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/kelsey-haddad/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/m.-ehsan-shafiee/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/m.-fayzul-k.and-kc-bijay-pasha/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/m.-herrera/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/m.-katherine-banks/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/marcio-giacomoni/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/mashor-housh/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/mohsen-aghashahi/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/mohsen-pourahmadi/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/nikolaos-gatsis/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/pratim-biswas/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/raanju-sundararajan/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/saravanakumar-lakshmanan-somasundaram/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/sarin-e.-chandy/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/taormina-18-battle/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/zachary-a.-barker/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/ziv-ohar/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/giraldo-18-survey/</loc>
     <lastmod>2018-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/henrik-sandberg/</loc>
     <lastmod>2018-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/junia-valente/</loc>
     <lastmod>2018-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/justin-ruths/</loc>
     <lastmod>2018-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/mustafa-faisal/</loc>
     <lastmod>2018-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/richard-candell/</loc>
     <lastmod>2018-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/ahnaf-siddiqi/</loc>
     <lastmod>2018-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/siddiqi-18-epic/</loc>
     <lastmod>2018-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/sridharan-18-detection/</loc>
     <lastmod>2018-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/aymen-fakhreddine/</loc>
     <lastmod>2018-05-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/fakhreddine-18-proximity/</loc>
     <lastmod>2018-05-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/domenico-giustiniano/</loc>
     <lastmod>2018-05-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/ferdinand-brasser/</loc>
     <lastmod>2018-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/ghaeini-18-stateaware/</loc>
     <lastmod>2018-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/antonioli-17-s-3/</loc>
     <lastmod>2017-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/antonioli-17-eavesdropping/</loc>
     <lastmod>2017-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/sandra-siby/</loc>
     <lastmod>2017-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/sridhar-adepu/</loc>
     <lastmod>2017-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/anand-agrawal/</loc>
     <lastmod>2017-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/maiti-17-linklayer/</loc>
     <lastmod>2017-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/naman-govil/</loc>
     <lastmod>2017-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/govil-17-ladder/</loc>
     <lastmod>2017-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/john-henry-castellanos/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/castellanos-17-legacy/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/tippenhauer-17-digma/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/siby-17-iotscannershort/</loc>
     <lastmod>2017-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/juan-guarnizo/</loc>
     <lastmod>2017-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/juan-david-guarnizo/</loc>
     <lastmod>2017-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/marco-rocchetto/</loc>
     <lastmod>2017-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/michael-bohadana/</loc>
     <lastmod>2017-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/meidan-17-profiliot/</loc>
     <lastmod>2017-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/guarnizo-17-siphon/</loc>
     <lastmod>2017-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/suman-sankar-bunia/</loc>
     <lastmod>2017-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/towards-17-rocchetto/</loc>
     <lastmod>2017-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/yair-meidan/</loc>
     <lastmod>2017-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication_types/4/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/don-mackenzie/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/erik-wilhelm/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/wilhelm-17-evaluation/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/siby-17-iotscanner/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/lynette-cheah/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/yuren-zhou/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/siboni-16-testbed/</loc>
     <lastmod>2016-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/christina-popper/</loc>
     <lastmod>2016-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/jemin-lee/</loc>
     <lastmod>2016-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/kai-jansen/</loc>
     <lastmod>2016-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/jansen-16-gps/</loc>
     <lastmod>2016-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/shachar-siboni/</loc>
     <lastmod>2016-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/jacksheeng-kee/</loc>
     <lastmod>2016-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/kasper-bonne-rasmussen/</loc>
     <lastmod>2016-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/kristin-wood/</loc>
     <lastmod>2016-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/melani-jayasuriya/</loc>
     <lastmod>2016-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/tippenhauer-16-integrity/</loc>
     <lastmod>2016-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/shaohui-foong/</loc>
     <lastmod>2016-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/wilhelm-16-wearable/</loc>
     <lastmod>2016-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/xavier-j.-s.-ashok/</loc>
     <lastmod>2016-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/alvaro-a.-cardenas/</loc>
     <lastmod>2016-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/rocchetto-16-cpdy/</loc>
     <lastmod>2016-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/hamid-ghaeini/</loc>
     <lastmod>2016-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/ghaeini-16-hamids/</loc>
     <lastmod>2016-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/urbina-16-limiting/</loc>
     <lastmod>2016-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/antonioli-16-towards/</loc>
     <lastmod>2016-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/rocchetto-16-models/</loc>
     <lastmod>2016-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/sumeet-jauhar/</loc>
     <lastmod>2016-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/dong-16-cissa/</loc>
     <lastmod>2016-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/william-g.-temple/</loc>
     <lastmod>2016-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/william-h.-sanders/</loc>
     <lastmod>2016-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/xinshu-dong/</loc>
     <lastmod>2016-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/zbigniew-kalbarczyk/</loc>
     <lastmod>2016-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/taormina-16-assessing/</loc>
     <lastmod>2016-05-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/tags/deep-learning/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/tags/demo/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/project/external-project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/project/internal-project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/aditya-mathur/</loc>
     <lastmod>2016-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/mathur-16-swat/</loc>
     <lastmod>2016-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/tippenhauer-16-testbeds/</loc>
     <lastmod>2016-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/urbina-16-fieldbus/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/taormina-16-characterizing/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/nan-zhang/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/wilhelm-16-sensg/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/taormina-16-simulation/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/antonioli-15-minicps/</loc>
     <lastmod>2015-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/heinrich-luecken/</loc>
     <lastmod>2015-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/marc-kuhn/</loc>
     <lastmod>2015-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/tippenhauer-15-uwb/</loc>
     <lastmod>2015-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/an-hoa-vu/</loc>
     <lastmod>2014-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/tippenhauer-14-automatic/</loc>
     <lastmod>2014-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/william-sanders/</loc>
     <lastmod>2014-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/stefan-mangold/</loc>
     <lastmod>2014-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/giustiniano-2014-visible/</loc>
     <lastmod>2014-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/vu-14-cybersage/</loc>
     <lastmod>2014-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/temple-13-delay/</loc>
     <lastmod>2013-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/aanjhan-ranganathan/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/david-k.-y.-yau/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/chen-13-flow/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/luka-malisa/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/tippenhauer-2013-limitations/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/rui-tan/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/giustiniano-12-low/</loc>
     <lastmod>2012-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication_types/7/</loc>
     <lastmod>2012-03-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/tippenhauer-12-phd/</loc>
     <lastmod>2012-03-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/boris-skoric/</loc>
     <lastmod>2012-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/dave-singele/</loc>
     <lastmod>2012-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/ranganathan-12-terrorist/</loc>
     <lastmod>2012-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/tippenhauer-2012-toys/</loc>
     <lastmod>2012-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/boris-danev/</loc>
     <lastmod>2011-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/poepper-11-manipulations/</loc>
     <lastmod>2011-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/tippenhauer-11-gps/</loc>
     <lastmod>2011-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/ghassan-karame/</loc>
     <lastmod>2010-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/capkun-tmc-10/</loc>
     <lastmod>2010-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/mario-cagalj/</loc>
     <lastmod>2010-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/kuhn-10-uwbdb/</loc>
     <lastmod>2010-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/tippenhauer-09-attacks/</loc>
     <lastmod>2009-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/tippenhauer-09-idbased/</loc>
     <lastmod>2009-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/tippenhauer-2009-iphone/</loc>
     <lastmod>2009-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/tippenhauer-09-temp/</loc>
     <lastmod>2009-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/tippenhauer-08-uwbsr-tr/</loc>
     <lastmod>2008-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/publication/tippenhauer-07-smartmips/</loc>
     <lastmod>2007-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/authors/not/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://scy-phy.net/categories/</loc>
   </url>
-  
 </urlset>
