@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Till Schlüter | SCy-Phy</title>
-    <link>https://scy-phy.net/authors/till-schluter/</link>
-      <atom:link href="https://scy-phy.net/authors/till-schluter/index.xml" rel="self" type="application/rss+xml" />
-    <description>Till Schlüter</description>
+    <title>Christian Rossow | SCy-Phy</title>
+    <link>https://scy-phy.net/authors/christian-rossow/</link>
+      <atom:link href="https://scy-phy.net/authors/christian-rossow/index.xml" rel="self" type="application/rss+xml" />
+    <description>Christian Rossow</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://scy-phy.net/img/thumbnail.png</url>
-      <title>Till Schlüter</title>
-      <link>https://scy-phy.net/authors/till-schluter/</link>
+      <title>Christian Rossow</title>
+      <link>https://scy-phy.net/authors/christian-rossow/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>https://scy-phy.net/publication/ibrahim-22-templates/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
       <guid>https://scy-phy.net/publication/ibrahim-22-templates/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Differential Analysis and Fingerprinting of ZombieLoads on Block Ciphers</title>
-      <link>https://scy-phy.net/publication/schlueter-20-differential/</link>
-      <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>https://scy-phy.net/publication/schlueter-20-differential/</guid>
       <description></description>
     </item>
     
