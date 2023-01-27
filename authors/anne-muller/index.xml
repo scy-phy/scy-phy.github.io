@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anne Müller | SCy-Phy</title>
+    <link>https://scy-phy.net/authors/anne-muller/</link>
+      <atom:link href="https://scy-phy.net/authors/anne-muller/index.xml" rel="self" type="application/rss+xml" />
+    <description>Anne Müller</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://scy-phy.net/img/thumbnail.png</url>
+      <title>Anne Müller</title>
+      <link>https://scy-phy.net/authors/anne-muller/</link>
+    </image>
+    
+    <item>
+      <title>Security Analysis of Vendor Implementations of the OPC UA Protocol for Industrial Control Systems</title>
+      <link>https://scy-phy.net/publication/erba-22-opcua/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/erba-22-opcua/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

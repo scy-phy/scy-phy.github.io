@@ -5,12 +5,20 @@
     <link>https://scy-phy.net/publication_types/0/</link>
       <atom:link href="https://scy-phy.net/publication_types/0/index.xml" rel="self" type="application/rss+xml" />
     <description>0</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Aug 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://scy-phy.net/img/thumbnail.png</url>
       <title>0</title>
       <link>https://scy-phy.net/publication_types/0/</link>
     </image>
+    
+    <item>
+      <title>Defense system and method against cyber-physical attacks</title>
+      <link>https://scy-phy.net/publication/mathur-2022-defense/</link>
+      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/mathur-2022-defense/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Apparatus and method for monitoring a wireless network</title>

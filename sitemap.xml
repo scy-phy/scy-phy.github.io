@@ -11,11 +11,23 @@
     <loc>https://scy-phy.net/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://scy-phy.net/publication_types/0/</loc>
+    <lastmod>2023-01-27T10:04:27+01:00</lastmod>
+  </url><url>
     <loc>https://scy-phy.net/publication_types/1/</loc>
-    <lastmod>2022-10-18T09:43:08+02:00</lastmod>
+    <lastmod>2023-01-27T10:04:27+01:00</lastmod>
+  </url><url>
+    <loc>https://scy-phy.net/authors/aditya-mathur/</loc>
+    <lastmod>2023-01-27T10:04:27+01:00</lastmod>
   </url><url>
     <loc>https://scy-phy.net/authors/</loc>
-    <lastmod>2022-10-18T09:43:08+02:00</lastmod>
+    <lastmod>2023-01-27T10:04:27+01:00</lastmod>
+  </url><url>
+    <loc>https://scy-phy.net/publication/mathur-2022-defense/</loc>
+    <lastmod>2023-01-27T10:04:27+01:00</lastmod>
+  </url><url>
+    <loc>https://scy-phy.net/authors/giedre-sabaliauskaite/</loc>
+    <lastmod>2023-01-27T10:04:27+01:00</lastmod>
   </url><url>
     <loc>https://scy-phy.net/publication/han-22-hiding/</loc>
     <lastmod>2022-03-18T10:26:45+01:00</lastmod>
@@ -23,17 +35,29 @@
     <loc>https://scy-phy.net/authors/matthew-chan/</loc>
     <lastmod>2022-03-18T10:26:45+01:00</lastmod>
   </url><url>
+    <loc>https://scy-phy.net/authors/myat-aung-kaung/</loc>
+    <lastmod>2023-01-27T10:04:27+01:00</lastmod>
+  </url><url>
     <loc>https://scy-phy.net/authors/nils-ole-tippenhauer/</loc>
-    <lastmod>2022-10-18T09:43:08+02:00</lastmod>
+    <lastmod>2023-01-27T10:04:27+01:00</lastmod>
+  </url><url>
+    <loc>https://scy-phy.net/authors/nils-tippenhauer/</loc>
+    <lastmod>2023-01-27T10:04:27+01:00</lastmod>
   </url><url>
     <loc>https://scy-phy.net/publication_types/</loc>
-    <lastmod>2022-10-18T09:43:08+02:00</lastmod>
+    <lastmod>2023-01-27T10:04:27+01:00</lastmod>
   </url><url>
     <loc>https://scy-phy.net/publication/</loc>
-    <lastmod>2022-10-18T09:43:08+02:00</lastmod>
+    <lastmod>2023-01-27T10:04:27+01:00</lastmod>
   </url><url>
     <loc>https://scy-phy.net/authors/saman-zonouz/</loc>
     <lastmod>2022-03-18T10:26:45+01:00</lastmod>
+  </url><url>
+    <loc>https://scy-phy.net/authors/siddhant-shrivastava/</loc>
+    <lastmod>2023-01-27T10:04:27+01:00</lastmod>
+  </url><url>
+    <loc>https://scy-phy.net/authors/sridhar-adepu/</loc>
+    <lastmod>2023-01-27T10:04:27+01:00</lastmod>
   </url><url>
     <loc>https://scy-phy.net/authors/yi-han/</loc>
     <lastmod>2022-03-18T10:26:45+01:00</lastmod>
@@ -63,7 +87,10 @@
     <lastmod>2022-10-18T09:43:07+02:00</lastmod>
   </url><url>
     <loc>https://scy-phy.net/authors/alessandro-erba/</loc>
-    <lastmod>2022-10-18T09:43:08+02:00</lastmod>
+    <lastmod>2023-01-27T10:04:27+01:00</lastmod>
+  </url><url>
+    <loc>https://scy-phy.net/authors/anne-muller/</loc>
+    <lastmod>2023-01-27T10:04:27+01:00</lastmod>
   </url><url>
     <loc>https://scy-phy.net/publication/erba-2022-modelfree/</loc>
     <lastmod>2022-10-18T09:43:08+02:00</lastmod>
@@ -88,6 +115,9 @@
   </url><url>
     <loc>https://scy-phy.net/publication/ibrahim-22-templates/</loc>
     <lastmod>2022-10-18T09:43:07+02:00</lastmod>
+  </url><url>
+    <loc>https://scy-phy.net/publication/erba-22-opcua/</loc>
+    <lastmod>2023-01-27T10:04:27+01:00</lastmod>
   </url><url>
     <loc>https://scy-phy.net/authors/till-schluter/</loc>
     <lastmod>2022-10-18T09:43:07+02:00</lastmod>
@@ -191,9 +221,6 @@
     <loc>https://scy-phy.net/publication/antonioli-20-bias/</loc>
     <lastmod>2020-05-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://scy-phy.net/publication_types/0/</loc>
-    <lastmod>2021-01-22T09:58:05+01:00</lastmod>
-  </url><url>
     <loc>https://scy-phy.net/publication/tippenhauer-20-apparatus/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -286,9 +313,6 @@
   </url><url>
     <loc>https://scy-phy.net/authors/nigel-smart/</loc>
     <lastmod>2021-01-22T09:58:05+01:00</lastmod>
-  </url><url>
-    <loc>https://scy-phy.net/authors/nils-tippenhauer/</loc>
-    <lastmod>2021-08-05T10:25:49+02:00</lastmod>
   </url><url>
     <loc>https://scy-phy.net/authors/patrick-leu/</loc>
     <lastmod>2021-01-22T09:58:05+01:00</lastmod>
@@ -575,9 +599,6 @@
     <loc>https://scy-phy.net/authors/sandra-siby/</loc>
     <lastmod>2017-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://scy-phy.net/authors/sridhar-adepu/</loc>
-    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://scy-phy.net/authors/anand-agrawal/</loc>
     <lastmod>2017-09-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -748,9 +769,6 @@
   </url><url>
     <loc>https://scy-phy.net/project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://scy-phy.net/authors/aditya-mathur/</loc>
-    <lastmod>2016-04-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://scy-phy.net/publication/mathur-16-swat/</loc>
     <lastmod>2016-04-01T00:00:00+00:00</lastmod>
