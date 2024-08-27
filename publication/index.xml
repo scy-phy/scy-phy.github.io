@@ -5,12 +5,20 @@
     <link>https://scy-phy.net/publication/</link>
       <atom:link href="https://scy-phy.net/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://scy-phy.net/img/thumbnail.png</url>
       <title>Publications</title>
       <link>https://scy-phy.net/publication/</link>
     </image>
+    
+    <item>
+      <title>Enabling Uncooperative Physical Localization in Cellular Networks</title>
+      <link>https://scy-phy.net/publication/oh-24-uncooperative/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/oh-24-uncooperative/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>FieldFuzz: In Situ Blackbox Fuzzing of Proprietary Industrial Automation Runtimes via the Network</title>
