@@ -5,7 +5,7 @@
     <link>https://scy-phy.net/publication/</link>
       <atom:link href="https://scy-phy.net/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://scy-phy.net/img/thumbnail.png</url>
       <title>Publications</title>
@@ -13,10 +13,26 @@
     </image>
     
     <item>
+      <title>FieldFuzz: In Situ Blackbox Fuzzing of Proprietary Industrial Automation Runtimes via the Network</title>
+      <link>https://scy-phy.net/publication/bytes-23-ffuzz/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/bytes-23-ffuzz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Blind Concealment from Reconstruction-based Attack Detectors for Industrial Control Systems via Backdoor Attacks</title>
       <link>https://scy-phy.net/publication/walita-23-blind/</link>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       <guid>https://scy-phy.net/publication/walita-23-blind/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FetchBench: Systematic Identification and Characterization of Proprietary Prefetchers</title>
+      <link>https://scy-phy.net/publication/schluter-23-fetchbench/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/schluter-23-fetchbench/</guid>
       <description></description>
     </item>
     
@@ -33,6 +49,22 @@
       <link>https://scy-phy.net/publication/ding-23-robotic/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
       <guid>https://scy-phy.net/publication/ding-23-robotic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Time sensitive networking security: issues of precision time protocol and its implementation</title>
+      <link>https://scy-phy.net/publication/berardi-23-time/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/berardi-23-time/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>White-box Concealment Attacks Against Anomaly Detectors for Cyber-Physical Systems</title>
+      <link>https://scy-phy.net/publication/erba-23-whitebox/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/erba-23-whitebox/</guid>
       <description></description>
     </item>
     
@@ -73,6 +105,14 @@
       <link>https://scy-phy.net/publication/antonioli-22-blurtooth/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
       <guid>https://scy-phy.net/publication/antonioli-22-blurtooth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Identifying Near-Optimal Single-Shot Attacks on ICSs with Limited Process Knowledge</title>
+      <link>https://scy-phy.net/publication/esquivel-2022-identifying/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/esquivel-2022-identifying/</guid>
       <description></description>
     </item>
     
