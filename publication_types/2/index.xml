@@ -5,12 +5,20 @@
     <link>https://scy-phy.net/publication_types/2/</link>
       <atom:link href="https://scy-phy.net/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://scy-phy.net/img/thumbnail.png</url>
       <title>2</title>
       <link>https://scy-phy.net/publication_types/2/</link>
     </image>
+    
+    <item>
+      <title>Transparent TSN for Agnostic End-hosts via P4-based Traffic Characterization at Switches</title>
+      <link>https://scy-phy.net/publication/brulhart-2024/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/brulhart-2024/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Time sensitive networking security: issues of precision time protocol and its implementation</title>
