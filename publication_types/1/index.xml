@@ -5,12 +5,39 @@
     <link>https://scy-phy.net/publication_types/1/</link>
       <atom:link href="https://scy-phy.net/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 06 Jun 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://scy-phy.net/img/thumbnail.png</url>
       <title>1</title>
       <link>https://scy-phy.net/publication_types/1/</link>
     </image>
+    
+    <item>
+      <title>GDMA: Fully Automated DMA Rehosting via Iterative Type Overlays</title>
+      <link>https://scy-phy.net/publication/scharnowski-25-dma/</link>
+      <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/scharnowski-25-dma/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>FASER-IN: Evasion of Network Intrusion Detection Systems in Industrial Networks</title>
+      <link>https://scy-phy.net/publication/shetty-25-evasion/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/shetty-25-evasion/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PreFence: A Fine-Grained and Scheduling-Aware Defense Against Prefetching-Based Attacks </title>
+      <link>https://scy-phy.net/publication/schlueter-25-prefence/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/schlueter-25-prefence/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>On Practical Realization of Evasion Attacks for Industrial Control Systems</title>
