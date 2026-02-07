@@ -30,6 +30,15 @@
     </item>
     
     <item>
+      <title>Pitfalls for Security Isolation in Multi-CPU Systems</title>
+      <link>https://scy-phy.net/publication/hoffmann-26-pitfalls/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/hoffmann-26-pitfalls/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>GDMA: Fully Automated DMA Rehosting via Iterative Type Overlays</title>
       <link>https://scy-phy.net/publication/scharnowski-25-dma/</link>
       <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
