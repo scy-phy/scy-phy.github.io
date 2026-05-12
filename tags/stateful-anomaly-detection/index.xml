@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Stateful Anomaly Detection | SCy-Phy</title>
-    <link>https://scy-phy.net/tags/stateful-anomaly-detection/</link>
-      <atom:link href="https://scy-phy.net/tags/stateful-anomaly-detection/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://cispa.saarland/group/tippenhauer/tags/stateful-anomaly-detection/</link>
+      <atom:link href="https://cispa.saarland/group/tippenhauer/tags/stateful-anomaly-detection/index.xml" rel="self" type="application/rss+xml" />
     <description>Stateful Anomaly Detection</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://scy-phy.net/img/thumbnail.png</url>
+      <url>https://cispa.saarland/group/tippenhauer/img/thumbnail.png</url>
       <title>Stateful Anomaly Detection</title>
-      <link>https://scy-phy.net/tags/stateful-anomaly-detection/</link>
+      <link>https://cispa.saarland/group/tippenhauer/tags/stateful-anomaly-detection/</link>
     </image>
     
     <item>
       <title>Zero Residual Attacks on Industrial Control Systems and Stateful Countermeasures</title>
-      <link>https://scy-phy.net/publication/ghaeini-19-zera/</link>
+      <link>https://cispa.saarland/group/tippenhauer/publication/ghaeini-19-zera/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://scy-phy.net/publication/ghaeini-19-zera/</guid>
+      <guid>https://cispa.saarland/group/tippenhauer/publication/ghaeini-19-zera/</guid>
       <description></description>
     </item>
     

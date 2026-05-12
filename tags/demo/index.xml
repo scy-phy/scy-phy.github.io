@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Demo | SCy-Phy</title>
-    <link>https://scy-phy.net/tags/demo/</link>
-      <atom:link href="https://scy-phy.net/tags/demo/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://cispa.saarland/group/tippenhauer/tags/demo/</link>
+      <atom:link href="https://cispa.saarland/group/tippenhauer/tags/demo/index.xml" rel="self" type="application/rss+xml" />
     <description>Demo</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://scy-phy.net/img/thumbnail.png</url>
+      <url>https://cispa.saarland/group/tippenhauer/img/thumbnail.png</url>
       <title>Demo</title>
-      <link>https://scy-phy.net/tags/demo/</link>
+      <link>https://cispa.saarland/group/tippenhauer/tags/demo/</link>
     </image>
     
     <item>
       <title>External Project</title>
-      <link>https://scy-phy.net/project/external-project/</link>
+      <link>https://cispa.saarland/group/tippenhauer/project/external-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://scy-phy.net/project/external-project/</guid>
+      <guid>https://cispa.saarland/group/tippenhauer/project/external-project/</guid>
       <description></description>
     </item>
     
