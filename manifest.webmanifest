@@ -5,11 +5,11 @@
   "theme_color": "#008dab",
   "background_color": "#008dab",
   "icons": [{
-    "src": "/group/tippenhauer/images/icon_hu_a00c87f181487eda.png",
+    "src": "/images/icon_hu_a00c87f181487eda.png",
     "sizes": "192x192",
     "type": "image/png"
     }, {
-    "src": "/group/tippenhauer/images/icon_hu_63bbc3dccc62bf80.png",
+    "src": "/images/icon_hu_63bbc3dccc62bf80.png",
     "sizes": "512x512",
     "type": "image/png"
      }],
