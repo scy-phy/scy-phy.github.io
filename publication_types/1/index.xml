@@ -13,6 +13,15 @@
     </image>
     
     <item>
+      <title>DNA: Automated Vulnerability Variant Detection through AI-Synthesized Queries</title>
+      <link>https://scy-phy.net/publication/ebrahim-26-dna/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/ebrahim-26-dna/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Pitfalls for Security Isolation in Multi-CPU Systems</title>
       <link>https://scy-phy.net/publication/hoffmann-26-pitfalls/</link>
       <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
@@ -62,15 +71,6 @@
       <link>https://scy-phy.net/publication/erba-24-practical/</link>
       <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
       <guid>https://scy-phy.net/publication/erba-24-practical/</guid>
-      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>A Thorough Cybersecurity Dataset for Intrusion Detection in Smart Water Networks</title>
-      <link>https://scy-phy.net/publication/murillo-2024-thorough/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://scy-phy.net/publication/murillo-2024-thorough/</guid>
       <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
 </description>
     </item>
@@ -137,6 +137,15 @@
       <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
       <guid>https://scy-phy.net/publication/han-22-hiding/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>A Thorough Cybersecurity Dataset for Intrusion Detection in Smart Water Networks</title>
+      <link>https://scy-phy.net/publication/murillo-2024-thorough/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/murillo-2024-thorough/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
     </item>
     
     <item>
