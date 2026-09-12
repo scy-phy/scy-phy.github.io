@@ -5,12 +5,30 @@
     <link>https://scy-phy.net/publication_types/1/</link>
       <atom:link href="https://scy-phy.net/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Nov 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://scy-phy.net/img/thumbnail.png</url>
       <title>1</title>
       <link>https://scy-phy.net/publication_types/1/</link>
     </image>
+    
+    <item>
+      <title>AutoTAG: A Testbed to Generate Automotive Attack Datasets</title>
+      <link>https://scy-phy.net/publication/granzow-26-datasets/</link>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/granzow-26-datasets/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ShadowICS: Detecting OT Sandboxes via Passive Industrial Traffic Monitoring</title>
+      <link>https://scy-phy.net/publication/donadel-26-shadowics/</link>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/donadel-26-shadowics/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Protocol Prying: Systematic Vulnerability Research in the AirDrop and Android Quick Share Proximity Transfer Protocols</title>
