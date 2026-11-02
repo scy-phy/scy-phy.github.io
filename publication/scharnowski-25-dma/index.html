@@ -28,7 +28,7 @@
   
     
   
-  <meta name="description" content="Add the full text or supplementary notes for the publication here using Markdown formatting.">
+  <meta name="description" content="Embedded systems are the critical interface between the physical and the digital world, where security breaches can lead to significant harm. In recent years, rehosting has proven to be an effective method for dynamic security testing of embedded systems. However, existing approaches largely ignore the automated rehosting of Direct Memory Access (DMA), a key mechanism for receiving untrusted data. The only fully automated DMA rehosting approach considers just one out of six common DMA mechanisms, leaving significant gaps in the security analysis of firmware. In this work, we introduce GDMA, a comprehensive solution for fully automated DMA rehosting. GDMA successfully emulates all six DMA configuration mechanisms by analyzing emulation traces to identify the two critical DMA usage steps: DMA configuration and DMA buffer usage. More specifically, it first collects type information on MMIO registers that consistently behave like pointers. We organize this information in type trees, which capture relationships between MMIO registers and the memory regions they reference. GDMA then overlays and merges these trees to iteratively distill a DMA configuration. By applying this configuration in a generic DMA peripheral, GDMA enables effective testing of DMA-dependent firmware. We evaluate GDMA on a total of 114 firmware images. Compared to the state of the art, GDMA is the first to successfully emulate all samples of the state-of-the-art benchmark, reaching 3x the DMA mechanism coverage. We also introduce a fully reproducible data set to systematically evaluate DMA rehosting of all six mechanisms. GDMA successfully rehosts all of these, which is a factor of 6x compared to existing methods. Finally, we evaluate GDMA on various DMA-enabled firmware and discover 6 new bugs with 6 assigned CVEs following a coordinated disclosure.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://scy-phy.net/publication/scharnowski-25-dma/">
@@ -216,8 +216,8 @@
   
 
   <link rel="manifest" href="../../index.webmanifest">
-  <link rel="icon" type="image/png" href="../../images/icon_hu_b1d97083e007ada5.png">
-  <link rel="apple-touch-icon" type="image/png" href="../../images/icon_hu_be07cf1fc68539cf.png">
+  <link rel="icon" type="image/png" href="../../images/icon_hu_8073002a892c7da5.png">
+  <link rel="apple-touch-icon" type="image/png" href="../../images/icon_hu_a00c87f181487eda.png">
 
   <link rel="canonical" href="https://scy-phy.net/publication/scharnowski-25-dma/">
 
@@ -237,7 +237,7 @@
   <meta property="og:site_name" content="SCy-Phy">
   <meta property="og:url" content="https://scy-phy.net/publication/scharnowski-25-dma/">
   <meta property="og:title" content="GDMA: Fully Automated DMA Rehosting via Iterative Type Overlays | SCy-Phy">
-  <meta property="og:description" content="Add the full text or supplementary notes for the publication here using Markdown formatting."><meta property="og:image" content="https://scy-phy.net/img/thumbnail.png">
+  <meta property="og:description" content="Embedded systems are the critical interface between the physical and the digital world, where security breaches can lead to significant harm. In recent years, rehosting has proven to be an effective method for dynamic security testing of embedded systems. However, existing approaches largely ignore the automated rehosting of Direct Memory Access (DMA), a key mechanism for receiving untrusted data. The only fully automated DMA rehosting approach considers just one out of six common DMA mechanisms, leaving significant gaps in the security analysis of firmware. In this work, we introduce GDMA, a comprehensive solution for fully automated DMA rehosting. GDMA successfully emulates all six DMA configuration mechanisms by analyzing emulation traces to identify the two critical DMA usage steps: DMA configuration and DMA buffer usage. More specifically, it first collects type information on MMIO registers that consistently behave like pointers. We organize this information in type trees, which capture relationships between MMIO registers and the memory regions they reference. GDMA then overlays and merges these trees to iteratively distill a DMA configuration. By applying this configuration in a generic DMA peripheral, GDMA enables effective testing of DMA-dependent firmware. We evaluate GDMA on a total of 114 firmware images. Compared to the state of the art, GDMA is the first to successfully emulate all samples of the state-of-the-art benchmark, reaching 3x the DMA mechanism coverage. We also introduce a fully reproducible data set to systematically evaluate DMA rehosting of all six mechanisms. GDMA successfully rehosts all of these, which is a factor of 6x compared to existing methods. Finally, we evaluate GDMA on various DMA-enabled firmware and discover 6 new bugs with 6 assigned CVEs following a coordinated disclosure."><meta property="og:image" content="https://scy-phy.net/img/thumbnail.png">
   <meta property="twitter:image" content="https://scy-phy.net/img/thumbnail.png"><meta property="og:locale" content="en-us">
   
     
@@ -282,10 +282,10 @@
     "name": "SCy-Phy",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://scy-phy.net/images/icon_hu_be07cf1fc68539cf.png"
+      "url": "https://scy-phy.net/images/icon_hu_a00c87f181487eda.png"
     }
   },
-  "description": "\u003cp\u003eAdd the \u003cstrong\u003efull text\u003c/strong\u003e or \u003cstrong\u003esupplementary notes\u003c/strong\u003e for the publication here using Markdown formatting.\u003c/p\u003e"
+  "description": "Embedded systems are the critical interface between the physical and the digital world, where security breaches can lead to significant harm. In recent years, rehosting has proven to be an effective method for dynamic security testing of embedded systems. However, existing approaches largely ignore the automated rehosting of Direct Memory Access (DMA), a key mechanism for receiving untrusted data. The only fully automated DMA rehosting approach considers just one out of six common DMA mechanisms, leaving significant gaps in the security analysis of firmware. In this work, we introduce GDMA, a comprehensive solution for fully automated DMA rehosting. GDMA successfully emulates all six DMA configuration mechanisms by analyzing emulation traces to identify the two critical DMA usage steps: DMA configuration and DMA buffer usage. More specifically, it first collects type information on MMIO registers that consistently behave like pointers. We organize this information in type trees, which capture relationships between MMIO registers and the memory regions they reference. GDMA then overlays and merges these trees to iteratively distill a DMA configuration. By applying this configuration in a generic DMA peripheral, GDMA enables effective testing of DMA-dependent firmware. We evaluate GDMA on a total of 114 firmware images. Compared to the state of the art, GDMA is the first to successfully emulate all samples of the state-of-the-art benchmark, reaching 3x the DMA mechanism coverage. We also introduce a fully reproducible data set to systematically evaluate DMA rehosting of all six mechanisms. GDMA successfully rehosts all of these, which is a factor of 6x compared to existing methods. Finally, we evaluate GDMA on various DMA-enabled firmware and discover 6 new bugs with 6 assigned CVEs following a coordinated disclosure."
 }
 </script>
 
@@ -656,8 +656,14 @@
 
 
   
+    
+  
 
 
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://publications.cispa.de/ndownloader/files/56259287" target="_blank" rel="noopener">
+  PDF
+</a>
 
 
 
@@ -677,6 +683,19 @@
 </a>
 
 
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="../../doi.org/10.5281/zenodo.15600641" target="_blank" rel="noopener">
+  Dataset
+</a>
+
+
+
+  
+    
+  
 
 
 
@@ -686,6 +705,9 @@
 
 
 
+<a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.5555/3766078.3766173" target="_blank" rel="noopener">
+  DOI
+</a>
 
 
 
@@ -699,6 +721,9 @@
 
   <div class="article-container">
 
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">Embedded systems are the critical interface between the physical and the digital world, where security breaches can lead to significant harm. In recent years, rehosting has proven to be an effective method for dynamic security testing of embedded systems. However, existing approaches largely ignore the automated rehosting of Direct Memory Access (DMA), a key mechanism for receiving untrusted data. The only fully automated DMA rehosting approach considers just one out of six common DMA mechanisms, leaving significant gaps in the security analysis of firmware. In this work, we introduce GDMA, a comprehensive solution for fully automated DMA rehosting. GDMA successfully emulates all six DMA configuration mechanisms by analyzing emulation traces to identify the two critical DMA usage steps: DMA configuration and DMA buffer usage. More specifically, it first collects type information on MMIO registers that consistently behave like pointers. We organize this information in type trees, which capture relationships between MMIO registers and the memory regions they reference. GDMA then overlays and merges these trees to iteratively distill a DMA configuration. By applying this configuration in a generic DMA peripheral, GDMA enables effective testing of DMA-dependent firmware. We evaluate GDMA on a total of 114 firmware images. Compared to the state of the art, GDMA is the first to successfully emulate all samples of the state-of-the-art benchmark, reaching 3x the DMA mechanism coverage. We also introduce a fully reproducible data set to systematically evaluate DMA rehosting of all six mechanisms. GDMA successfully rehosts all of these, which is a factor of 6x compared to existing methods. Finally, we evaluate GDMA on various DMA-enabled firmware and discover 6 new bugs with 6 assigned CVEs following a coordinated disclosure.</p>
     
 
     
@@ -1111,7 +1136,7 @@
     
     
     
-    <script src="../../js/academic.min.cd49b33b1a5b0c072c2ea5ce8c6d25c8.js"></script>
+    <script src="../../js/academic.min.4b8c056f1d97ed96fe9a83295ddf687b.js"></script>
 
     
 

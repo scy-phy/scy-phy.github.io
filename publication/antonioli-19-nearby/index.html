@@ -28,7 +28,7 @@
   
     
   
-  <meta name="description" content="">
+  <meta name="description" content="Google&#39;s Nearby Connections API enables any Android (and Android Things) application to provide proximitybased services to its users, regardless of their network connectivity.The API uses Bluetooth BR/EDR, Bluetooth LE and Wi-Fi to let &#34;nearby&#34; clients (discoverers) and servers (advertisers) connect and exchange different types of payloads.The implementation of the API is proprietary, closed-source and obfuscated.The updates of the API are automatically installed by Google across different versions of Android, without user interaction.Little is known publicly about the security guarantees offered by the API, even though it presents a significant attack surface.In this work we present the first security analysis of the Google&#39;s Nearby Connections API, based on reverse-engineering of its Android implementation.We discover and implement several attacks grouped into two families: connection manipulation (CMA) and range extension attacks (REA).CMA-attacks allow an attacker to insert himself as a man-in-the-middle and manipulate connections (even unrelated to the API), and to tamper with the victim&#39;s network interface and configuration.REA-attacks allow an attacker to tunnel any nearby connection to remote (nonnearby) locations, even between two honest devices.Our attacks are enabled by REarby, a toolkit we developed while reversing the implementation of the API.REarby includes a dynamic binary instrumenter, a packet dissector, and the implementations of custom Nearby Connections client and server.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://scy-phy.net/publication/antonioli-19-nearby/">
@@ -216,8 +216,8 @@
   
 
   <link rel="manifest" href="../../index.webmanifest">
-  <link rel="icon" type="image/png" href="../../images/icon_hu_b1d97083e007ada5.png">
-  <link rel="apple-touch-icon" type="image/png" href="../../images/icon_hu_be07cf1fc68539cf.png">
+  <link rel="icon" type="image/png" href="../../images/icon_hu_8073002a892c7da5.png">
+  <link rel="apple-touch-icon" type="image/png" href="../../images/icon_hu_a00c87f181487eda.png">
 
   <link rel="canonical" href="https://scy-phy.net/publication/antonioli-19-nearby/">
 
@@ -237,11 +237,11 @@
   <meta property="og:site_name" content="SCy-Phy">
   <meta property="og:url" content="https://scy-phy.net/publication/antonioli-19-nearby/">
   <meta property="og:title" content="Nearby Threats: Reversing, Analyzing, and Attacking Google’s &#39;Nearby Connections&#39; on Android | SCy-Phy">
-  <meta property="og:description" content=""><meta property="og:image" content="https://scy-phy.net/img/thumbnail.png">
+  <meta property="og:description" content="Google&#39;s Nearby Connections API enables any Android (and Android Things) application to provide proximitybased services to its users, regardless of their network connectivity.The API uses Bluetooth BR/EDR, Bluetooth LE and Wi-Fi to let &#34;nearby&#34; clients (discoverers) and servers (advertisers) connect and exchange different types of payloads.The implementation of the API is proprietary, closed-source and obfuscated.The updates of the API are automatically installed by Google across different versions of Android, without user interaction.Little is known publicly about the security guarantees offered by the API, even though it presents a significant attack surface.In this work we present the first security analysis of the Google&#39;s Nearby Connections API, based on reverse-engineering of its Android implementation.We discover and implement several attacks grouped into two families: connection manipulation (CMA) and range extension attacks (REA).CMA-attacks allow an attacker to insert himself as a man-in-the-middle and manipulate connections (even unrelated to the API), and to tamper with the victim&#39;s network interface and configuration.REA-attacks allow an attacker to tunnel any nearby connection to remote (nonnearby) locations, even between two honest devices.Our attacks are enabled by REarby, a toolkit we developed while reversing the implementation of the API.REarby includes a dynamic binary instrumenter, a packet dissector, and the implementations of custom Nearby Connections client and server."><meta property="og:image" content="https://scy-phy.net/img/thumbnail.png">
   <meta property="twitter:image" content="https://scy-phy.net/img/thumbnail.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2019-12-12T14:23:31&#43;00:00">
+      <meta property="article:published_time" content="2019-12-13T13:56:44&#43;00:00">
     
     <meta property="article:modified_time" content="2019-02-01T00:00:00&#43;00:00">
   
@@ -269,7 +269,7 @@
   },
   "headline": "Nearby Threats: Reversing, Analyzing, and Attacking Google’s 'Nearby Connections' on Android",
   
-  "datePublished": "2019-12-12T14:23:31Z",
+  "datePublished": "2019-12-13T13:56:44Z",
   "dateModified": "2019-02-01T00:00:00Z",
   
   "author": {
@@ -282,10 +282,10 @@
     "name": "SCy-Phy",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://scy-phy.net/images/icon_hu_be07cf1fc68539cf.png"
+      "url": "https://scy-phy.net/images/icon_hu_a00c87f181487eda.png"
     }
   },
-  "description": ""
+  "description": "Google's Nearby Connections API enables any Android (and Android Things) application to provide proximitybased services to its users, regardless of their network connectivity.The API uses Bluetooth BR/EDR, Bluetooth LE and Wi-Fi to let \"nearby\" clients (discoverers) and servers (advertisers) connect and exchange different types of payloads.The implementation of the API is proprietary, closed-source and obfuscated.The updates of the API are automatically installed by Google across different versions of Android, without user interaction.Little is known publicly about the security guarantees offered by the API, even though it presents a significant attack surface.In this work we present the first security analysis of the Google's Nearby Connections API, based on reverse-engineering of its Android implementation.We discover and implement several attacks grouped into two families: connection manipulation (CMA) and range extension attacks (REA).CMA-attacks allow an attacker to insert himself as a man-in-the-middle and manipulate connections (even unrelated to the API), and to tamper with the victim's network interface and configuration.REA-attacks allow an attacker to tunnel any nearby connection to remote (nonnearby) locations, even between two honest devices.Our attacks are enabled by REarby, a toolkit we developed while reversing the implementation of the API.REarby includes a dynamic binary instrumenter, a packet dissector, and the implementations of custom Nearby Connections client and server."
 }
 </script>
 
@@ -656,8 +656,14 @@
 
 
   
+    
+  
 
 
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_06B-3_Antonioli_paper.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
 
 
 
@@ -695,6 +701,9 @@
 
   <div class="article-container">
 
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">Google&rsquo;s Nearby Connections API enables any Android (and Android Things) application to provide proximitybased services to its users, regardless of their network connectivity.The API uses Bluetooth BR/EDR, Bluetooth LE and Wi-Fi to let &ldquo;nearby&rdquo; clients (discoverers) and servers (advertisers) connect and exchange different types of payloads.The implementation of the API is proprietary, closed-source and obfuscated.The updates of the API are automatically installed by Google across different versions of Android, without user interaction.Little is known publicly about the security guarantees offered by the API, even though it presents a significant attack surface.In this work we present the first security analysis of the Google&rsquo;s Nearby Connections API, based on reverse-engineering of its Android implementation.We discover and implement several attacks grouped into two families: connection manipulation (CMA) and range extension attacks (REA).CMA-attacks allow an attacker to insert himself as a man-in-the-middle and manipulate connections (even unrelated to the API), and to tamper with the victim&rsquo;s network interface and configuration.REA-attacks allow an attacker to tunnel any nearby connection to remote (nonnearby) locations, even between two honest devices.Our attacks are enabled by REarby, a toolkit we developed while reversing the implementation of the API.REarby includes a dynamic binary instrumenter, a packet dissector, and the implementations of custom Nearby Connections client and server.</p>
     
 
     
@@ -957,7 +966,7 @@
     
     
     
-    <script src="../../js/academic.min.cd49b33b1a5b0c072c2ea5ce8c6d25c8.js"></script>
+    <script src="../../js/academic.min.4b8c056f1d97ed96fe9a83295ddf687b.js"></script>
 
     
 

@@ -107,8 +107,7 @@
       <link>https://scy-phy.net/publication/erba-24-practical/</link>
       <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
       <guid>https://scy-phy.net/publication/erba-24-practical/</guid>
-      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -221,14 +220,6 @@
       <link>https://scy-phy.net/publication/erba-2022-modelfree/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
       <guid>https://scy-phy.net/publication/erba-2022-modelfree/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Blurtooth: Exploiting cross-transport key derivation in Bluetooth classic and Bluetooth low energy</title>
-      <link>https://scy-phy.net/publication/antonioli-22-blurtooth/</link>
-      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://scy-phy.net/publication/antonioli-22-blurtooth/</guid>
       <description></description>
     </item>
     
@@ -902,6 +893,60 @@
       <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
       <guid>https://scy-phy.net/publication/tippenhauer-07-smartmips/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://scy-phy.net/publication/antonioli-22-blurtooth/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://scy-phy.net/publication/antonioli-22-blurtooth/</guid>
+      <description>&lt;p&gt;10.1007/978-3-030-02641-7_19&amp;mdash;&lt;/p&gt;
+&lt;h1 id=&#34;documentation&#34;&gt;Documentation: 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://sourcethemes.com/academic/docs/managing-content/&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;title: &amp;lsquo;Blurtooth: Exploiting cross-transport key derivation in Bluetooth classic
+and Bluetooth low energy&amp;rsquo;
+subtitle: &amp;rsquo;&#39;
+summary: &amp;rsquo;&#39;
+authors:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Daniele Antonioli&lt;/li&gt;
+&lt;li&gt;Nils Ole Tippenhauer&lt;/li&gt;
+&lt;li&gt;Kasper Rasmussen&lt;/li&gt;
+&lt;li&gt;Mathias Payer
+tags: []
+categories: []
+date: &amp;lsquo;2022-01-01&amp;rsquo;
+lastmod: 2022-03-18T09:50:45+01:00
+featured: false
+draft: false&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;featured-image&#34;&gt;Featured image&lt;/h1&gt;
+&lt;h1 id=&#34;to-use-add-an-image-named-featuredjpgpng-to-your-pages-folder&#34;&gt;To use, add an image named &lt;code&gt;featured.jpg/png&lt;/code&gt; to your page&amp;rsquo;s folder.&lt;/h1&gt;
+&lt;h1 id=&#34;focal-points-smart-center-topleft-top-topright-left-right-bottomleft-bottom-bottomright&#34;&gt;Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.&lt;/h1&gt;
+&lt;p&gt;image:
+caption: &amp;rsquo;&#39;
+focal_point: &amp;rsquo;&#39;
+preview_only: false&lt;/p&gt;
+&lt;h1 id=&#34;projects-optional&#34;&gt;Projects (optional).&lt;/h1&gt;
+&lt;h1 id=&#34;associate-this-post-with-one-or-more-of-your-projects&#34;&gt;Associate this post with one or more of your projects.&lt;/h1&gt;
+&lt;h1 id=&#34;simply-enter-your-projects-folder-or-file-name-without-extension&#34;&gt;Simply enter your project&amp;rsquo;s folder or file name without extension.&lt;/h1&gt;
+&lt;h1 id=&#34;eg-projects--internal-project-references-contentprojectdeep-learningindexmd&#34;&gt;E.g. &lt;code&gt;projects = [&amp;quot;internal-project&amp;quot;]&lt;/code&gt; references &lt;code&gt;content/project/deep-learning/index.md&lt;/code&gt;.&lt;/h1&gt;
+&lt;h1 id=&#34;otherwise-set-projects--&#34;&gt;Otherwise, set &lt;code&gt;projects = []&lt;/code&gt;.&lt;/h1&gt;
+&lt;p&gt;projects: []
+publishDate: &amp;lsquo;2022-03-18T08:50:45.435287Z&amp;rsquo;
+publication_types:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;lsquo;1&amp;rsquo;
+abstract: &amp;rsquo;&#39;
+publication: &amp;lsquo;&lt;em&gt;Proceedings of the ACM Asia Conference on Computer and Communications Security (ASIACCS)&lt;/em&gt;&amp;rsquo;
+url_pdf: 
+&lt;a href=&#34;https://nebelwelt.net/files/22AsiaCCS.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://nebelwelt.net/files/22AsiaCCS.pdf&lt;/a&gt;
+url_project: 
+&lt;a href=&#34;https://hexhive.epfl.ch/BLURtooth/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://hexhive.epfl.ch/BLURtooth/&lt;/a&gt;
+doi: &amp;lsquo;10.1145/3488932.3523258&amp;rsquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+</description>
     </item>
     
   </channel>
