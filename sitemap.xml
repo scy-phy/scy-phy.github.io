@@ -36,10 +36,16 @@
     <lastmod>2026-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://scy-phy.net/publication/ebrahim-26-dna/</loc>
-    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2026-04-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://scy-phy.net/publication/hoffmann-26-pitfalls/</loc>
     <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://scy-phy.net/publication/shetty-25-evasion/</loc>
+    <lastmod>2025-08-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://scy-phy.net/publication/schlueter-25-prefence/</loc>
+    <lastmod>2025-06-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://scy-phy.net/publication/scharnowski-25-dma/</loc>
     <lastmod>2025-06-06T00:00:00+00:00</lastmod>
@@ -47,20 +53,14 @@
     <loc>https://scy-phy.net/publication/erba-2025-confu-sense/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://scy-phy.net/publication/shetty-25-evasion/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://scy-phy.net/publication/schlueter-25-prefence/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+    <loc>https://scy-phy.net/publication/oh-24-uncooperative/</loc>
+    <lastmod>2024-08-27T08:40:32+02:00</lastmod>
   </url><url>
     <loc>https://scy-phy.net/publication/erba-24-practical/</loc>
     <lastmod>2024-10-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://scy-phy.net/publication/brulhart-2024/</loc>
     <lastmod>2024-08-27T08:34:35+02:00</lastmod>
-  </url><url>
-    <loc>https://scy-phy.net/publication/oh-24-uncooperative/</loc>
-    <lastmod>2024-08-27T08:40:32+02:00</lastmod>
   </url><url>
     <loc>https://scy-phy.net/publication/bytes-23-ffuzz/</loc>
     <lastmod>2023-07-17T09:48:28+02:00</lastmod>
@@ -74,17 +74,26 @@
     <loc>https://scy-phy.net/publication/banerjee-23-preventing/</loc>
     <lastmod>2023-05-03T19:45:58+02:00</lastmod>
   </url><url>
-    <loc>https://scy-phy.net/publication_types/2/</loc>
-    <lastmod>2023-05-04T09:24:37+02:00</lastmod>
-  </url><url>
     <loc>https://scy-phy.net/publication/ding-23-robotic/</loc>
     <lastmod>2023-05-03T19:30:34+02:00</lastmod>
+  </url><url>
+    <loc>https://scy-phy.net/publication/erba-23-whitebox/</loc>
+    <lastmod>2023-07-17T09:21:22+02:00</lastmod>
+  </url><url>
+    <loc>https://scy-phy.net/publication_types/2/</loc>
+    <lastmod>2023-05-04T09:24:37+02:00</lastmod>
   </url><url>
     <loc>https://scy-phy.net/publication/berardi-23-time/</loc>
     <lastmod>2023-05-04T09:24:37+02:00</lastmod>
   </url><url>
-    <loc>https://scy-phy.net/publication/erba-23-whitebox/</loc>
-    <lastmod>2023-07-17T09:21:22+02:00</lastmod>
+    <loc>https://scy-phy.net/publication/erba-2022-modelfree/</loc>
+    <lastmod>2022-10-18T09:46:50+02:00</lastmod>
+  </url><url>
+    <loc>https://scy-phy.net/publication/ibrahim-22-templates/</loc>
+    <lastmod>2022-10-13T09:40:56+02:00</lastmod>
+  </url><url>
+    <loc>https://scy-phy.net/publication/erba-22-opcua/</loc>
+    <lastmod>2023-01-27T09:12:36+01:00</lastmod>
   </url><url>
     <loc>https://scy-phy.net/publication_types/8/</loc>
     <lastmod>2023-01-27T09:12:36+01:00</lastmod>
@@ -95,32 +104,20 @@
     <loc>https://scy-phy.net/publication/han-22-hiding/</loc>
     <lastmod>2021-10-05T11:28:22+02:00</lastmod>
   </url><url>
-    <loc>https://scy-phy.net/publication/wang-22-constrained/</loc>
-    <lastmod>2022-03-18T09:50:45+01:00</lastmod>
-  </url><url>
     <loc>https://scy-phy.net/publication/murillo-2024-thorough/</loc>
-    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://scy-phy.net/publication/erba-2022-modelfree/</loc>
-    <lastmod>2022-10-18T09:46:50+02:00</lastmod>
-  </url><url>
-    <loc>https://scy-phy.net/publication/antonioli-22-blurtooth/</loc>
-    <lastmod>2022-03-18T09:50:45+01:00</lastmod>
+    <lastmod>2022-07-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://scy-phy.net/publication/esquivel-2022-identifying/</loc>
     <lastmod>2023-06-28T13:20:26+02:00</lastmod>
   </url><url>
-    <loc>https://scy-phy.net/publication/ibrahim-22-templates/</loc>
-    <lastmod>2022-10-13T09:40:56+02:00</lastmod>
+    <loc>https://scy-phy.net/publication/antonioli-22-blurtooth/</loc>
+    <lastmod>2022-03-18T09:50:45+01:00</lastmod>
   </url><url>
-    <loc>https://scy-phy.net/publication/erba-22-opcua/</loc>
-    <lastmod>2023-01-27T09:12:36+01:00</lastmod>
+    <loc>https://scy-phy.net/publication/wang-22-constrained/</loc>
+    <lastmod>2022-03-18T09:50:45+01:00</lastmod>
   </url><url>
-    <loc>https://scy-phy.net/publication/wu-21-lightblue/</loc>
-    <lastmod>2021-01-22T09:53:14+01:00</lastmod>
-  </url><url>
-    <loc>https://scy-phy.net/publication/barbieri-21-assessing/</loc>
-    <lastmod>2021-08-05T10:35:52+02:00</lastmod>
+    <loc>https://scy-phy.net/publication/tippenhauer-21-vbump/</loc>
+    <lastmod>2022-04-23T08:47:07+02:00</lastmod>
   </url><url>
     <loc>https://scy-phy.net/publication_types/6/</loc>
     <lastmod>2021-08-05T10:35:52+02:00</lastmod>
@@ -128,11 +125,17 @@
     <loc>https://scy-phy.net/publication/tippenhauer-2021-detection/</loc>
     <lastmod>2021-08-05T10:35:52+02:00</lastmod>
   </url><url>
+    <loc>https://scy-phy.net/publication/wu-21-lightblue/</loc>
+    <lastmod>2021-01-22T09:53:14+01:00</lastmod>
+  </url><url>
+    <loc>https://scy-phy.net/publication/barbieri-21-assessing/</loc>
+    <lastmod>2021-08-05T10:35:52+02:00</lastmod>
+  </url><url>
     <loc>https://scy-phy.net/publication/alsoliman-21-drone/</loc>
     <lastmod>2022-03-18T09:50:45+01:00</lastmod>
   </url><url>
-    <loc>https://scy-phy.net/publication/tippenhauer-21-vbump/</loc>
-    <lastmod>2022-04-23T08:47:07+02:00</lastmod>
+    <loc>https://scy-phy.net/publication/murillo-20-cosimulating/</loc>
+    <lastmod>2021-08-05T10:35:52+02:00</lastmod>
   </url><url>
     <loc>https://scy-phy.net/publication/erba-2020-concealment/</loc>
     <lastmod>2020-10-31T08:44:33+01:00</lastmod>
@@ -143,14 +146,14 @@
     <loc>https://scy-phy.net/publication/turrin-20-analysis/</loc>
     <lastmod>2020-10-31T08:44:33+01:00</lastmod>
   </url><url>
+    <loc>https://scy-phy.net/publication/antonioli-20-tops/</loc>
+    <lastmod>2020-07-04T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://scy-phy.net/publication/antonioli-20-bias/</loc>
     <lastmod>2020-05-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://scy-phy.net/publication/tippenhauer-20-apparatus/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://scy-phy.net/publication/murillo-20-cosimulating/</loc>
-    <lastmod>2021-08-05T10:35:52+02:00</lastmod>
   </url><url>
     <loc>https://scy-phy.net/publication/troncoso-2020-decentralized/</loc>
     <lastmod>2020-11-26T16:34:57+01:00</lastmod>
@@ -158,14 +161,23 @@
     <loc>https://scy-phy.net/tags/dp3t/</loc>
     <lastmod>2020-11-26T16:34:57+01:00</lastmod>
   </url><url>
-    <loc>https://scy-phy.net/publication/antonioli-20-tops/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://scy-phy.net/tags/</loc>
     <lastmod>2020-11-26T16:34:57+01:00</lastmod>
   </url><url>
     <loc>https://scy-phy.net/publication/ghaeini-19-patt/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://scy-phy.net/tags/industrial-control-system/</loc>
+    <lastmod>2019-08-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://scy-phy.net/tags/stateful-anomaly-detection/</loc>
+    <lastmod>2019-08-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://scy-phy.net/tags/stealthy-attack/</loc>
+    <lastmod>2019-08-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://scy-phy.net/publication/ghaeini-19-zera/</loc>
+    <lastmod>2019-08-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://scy-phy.net/publication/antonioli-19-knob/</loc>
     <lastmod>2019-08-01T00:00:00+00:00</lastmod>
@@ -176,29 +188,17 @@
     <loc>https://scy-phy.net/publication/giraldo-19-hide/</loc>
     <lastmod>2019-06-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://scy-phy.net/publication/tippenhauer-2019-design/</loc>
+    <lastmod>2019-05-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://scy-phy.net/publication/tambe-19-vpn/</loc>
     <lastmod>2019-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://scy-phy.net/publication/antonioli-19-nearby/</loc>
+    <loc>https://scy-phy.net/publication/taormina-19-toolbox/</loc>
     <lastmod>2019-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://scy-phy.net/publication/taormina-19-toolbox/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://scy-phy.net/publication/tippenhauer-2019-design/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://scy-phy.net/tags/industrial-control-system/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://scy-phy.net/tags/stateful-anomaly-detection/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://scy-phy.net/tags/stealthy-attack/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://scy-phy.net/publication/ghaeini-19-zera/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <loc>https://scy-phy.net/publication/antonioli-19-nearby/</loc>
+    <lastmod>2019-02-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://scy-phy.net/publication/wang-18-location/</loc>
     <lastmod>2018-09-01T00:00:00+00:00</lastmod>
@@ -327,10 +327,10 @@
     <lastmod>2013-10-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://scy-phy.net/publication/chen-13-flow/</loc>
-    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2013-09-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://scy-phy.net/publication/tippenhauer-2013-limitations/</loc>
-    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2013-05-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://scy-phy.net/publication/giustiniano-12-low/</loc>
     <lastmod>2012-11-01T00:00:00+00:00</lastmod>
@@ -341,28 +341,28 @@
     <loc>https://scy-phy.net/publication/tippenhauer-12-phd/</loc>
     <lastmod>2012-03-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://scy-phy.net/publication/tippenhauer-2012-toys/</loc>
+    <lastmod>2012-01-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://scy-phy.net/publication/ranganathan-12-terrorist/</loc>
     <lastmod>2012-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://scy-phy.net/publication/tippenhauer-2012-toys/</loc>
-    <lastmod>2012-01-01T00:00:00+00:00</lastmod>
+    <loc>https://scy-phy.net/publication/tippenhauer-11-gps/</loc>
+    <lastmod>2011-10-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://scy-phy.net/publication/poepper-11-manipulations/</loc>
     <lastmod>2011-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://scy-phy.net/publication/tippenhauer-11-gps/</loc>
-    <lastmod>2011-01-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://scy-phy.net/publication/capkun-tmc-10/</loc>
-    <lastmod>2010-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2010-11-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://scy-phy.net/publication/kuhn-10-uwbdb/</loc>
-    <lastmod>2010-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://scy-phy.net/publication_types/4/</loc>
-    <lastmod>2009-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2010-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://scy-phy.net/publication/tippenhauer-09-attacks/</loc>
+    <lastmod>2009-06-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://scy-phy.net/publication_types/4/</loc>
     <lastmod>2009-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://scy-phy.net/publication/tippenhauer-09-idbased/</loc>
