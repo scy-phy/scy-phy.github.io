@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://scy-phy.net/talk/example/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <loc>https://scy-phy.net/impressum/</loc>
+    <lastmod>2026-11-21T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://scy-phy.net/talk/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <loc>https://scy-phy.net/privacy/</loc>
+    <lastmod>2026-11-21T00:00:00+01:00</lastmod>
   </url><url>
     <loc>https://scy-phy.net/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <lastmod>2026-11-21T00:00:00+01:00</lastmod>
   </url><url>
     <loc>https://scy-phy.net/publication_types/1/</loc>
     <lastmod>2026-11-01T00:00:00+00:00</lastmod>
@@ -381,5 +381,7 @@
     <lastmod>2007-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://scy-phy.net/categories/</loc>
+  </url><url>
+    <loc>https://scy-phy.net/talk/</loc>
   </url>
 </urlset>

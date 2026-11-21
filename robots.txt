@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://scy-phy.net/sitemap.xml

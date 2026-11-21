@@ -5,7 +5,7 @@
     <link>https://scy-phy.net/</link>
       <atom:link href="https://scy-phy.net/index.xml" rel="self" type="application/rss+xml" />
     <description>SCy-Phy</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 21 Nov 2026 00:00:00 +0100</lastBuildDate>
     <image>
       <url>https://scy-phy.net/img/thumbnail.png</url>
       <title>SCy-Phy</title>
@@ -13,19 +13,58 @@
     </image>
     
     <item>
-      <title>Example Talk</title>
-      <link>https://scy-phy.net/talk/example/</link>
-      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>https://scy-phy.net/talk/example/</guid>
-      <description>&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Academic&amp;rsquo;s 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Further talk details can easily be added to this page using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+      <title>Impressum</title>
+      <link>https://scy-phy.net/impressum/</link>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 +0100</pubDate>
+      <guid>https://scy-phy.net/impressum/</guid>
+      <description>&lt;h2 id=&#34;legal-notice-angaben-gemäß--5-ddg&#34;&gt;Legal notice (Angaben gemäß § 5 DDG)&lt;/h2&gt;
+&lt;p&gt;Nils Ole Tippenhauer&lt;br&gt;
+SCy-Phy group, CISPA Helmholtz Center for Information Security&lt;br&gt;
+Stuhlsatzenhaus 5&lt;br&gt;
+66123 Saarbrücken&lt;br&gt;
+Germany&lt;/p&gt;
+&lt;p&gt;Email: 
+&lt;a href=&#34;mailto:tippenhauer@cispa.de&#34;&gt;tippenhauer@cispa.de&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Responsible for the content according to § 18 (2) MStV: Nils Ole Tippenhauer, address as above.&lt;/p&gt;
+&lt;h2 id=&#34;liability-for-content-and-links&#34;&gt;Liability for content and links&lt;/h2&gt;
+&lt;p&gt;The contents of these pages have been created with the utmost care. We cannot, however, guarantee that they are correct, complete and up to date. This website contains links to external websites of third parties, on whose contents we have no influence; the respective provider or operator is always responsible for their content. If we become aware of legal infringements, we will remove such content or links immediately.&lt;/p&gt;
+&lt;h2 id=&#34;privacy&#34;&gt;Privacy&lt;/h2&gt;
+&lt;p&gt;See the 
+&lt;a href=&#34;./privacy/&#34;&gt;Privacy Policy&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>https://scy-phy.net/privacy/</link>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 +0100</pubDate>
+      <guid>https://scy-phy.net/privacy/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Last updated: November 2026&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;1-controller&#34;&gt;1. Controller&lt;/h2&gt;
+&lt;p&gt;The controller for this website within the meaning of Art. 4(7) GDPR is:&lt;/p&gt;
+&lt;p&gt;Nils Ole Tippenhauer&lt;br&gt;
+SCy-Phy group, CISPA Helmholtz Center for Information Security&lt;br&gt;
+Stuhlsatzenhaus 5, 66123 Saarbrücken, Germany&lt;br&gt;
+Email: 
+&lt;a href=&#34;mailto:tippenhauer@cispa.de&#34;&gt;tippenhauer@cispa.de&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;See also the 
+&lt;a href=&#34;./impressum/&#34;&gt;Impressum&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;2-hosting-and-server-log-data&#34;&gt;2. Hosting and server log data&lt;/h2&gt;
+&lt;p&gt;This website is a static site hosted on 
+&lt;a href=&#34;https://pages.github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub Pages&lt;/a&gt;, a service of GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA (and its affiliates, such as GitHub B.V.). When you open a page, your browser transmits technical data to GitHub&amp;rsquo;s servers, in particular your IP address, the requested URL, the date and time of the request, the referring page and your browser and operating system information. GitHub processes this data to deliver the site and to ensure its security and stability, and may keep it in server logs. We do not have access to these logs and do not receive or evaluate this data.&lt;/p&gt;
+&lt;p&gt;Legal basis: Art. 6(1)(f) GDPR. Our legitimate interest is to present our academic work on the internet. Your data may be processed in the USA. According to its privacy statement, GitHub participates in the EU-U.S. Data Privacy Framework and uses the EU standard contractual clauses for such transfers. Please refer to the 
+&lt;a href=&#34;https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub General Privacy Statement&lt;/a&gt; for details on GitHub&amp;rsquo;s processing, including retention.&lt;/p&gt;
+&lt;h2 id=&#34;3-no-cookies-analytics-or-third-party-content&#34;&gt;3. No cookies, analytics or third-party content&lt;/h2&gt;
+&lt;p&gt;This website does not set cookies, does not use analytics or tracking tools, and does not embed advertising, social-media widgets or comment systems. All fonts, scripts and style sheets are served from this website itself; your browser does not contact Google or any content delivery network when loading a page.&lt;/p&gt;
+&lt;h2 id=&#34;4-contact-by-email&#34;&gt;4. Contact by email&lt;/h2&gt;
+&lt;p&gt;If you send us an email, we process your email address and the content of your message to answer your inquiry (Art. 6(1)(f) GDPR, or Art. 6(1)(b) GDPR if the inquiry concerns a contract or pre-contractual measures). The data is deleted once your inquiry has been dealt with, unless statutory retention obligations apply.&lt;/p&gt;
+&lt;h2 id=&#34;5-external-links&#34;&gt;5. External links&lt;/h2&gt;
+&lt;p&gt;This website links to external websites (for example publishers, conference websites and code repositories). Once you follow such a link, the operator of the external website is responsible for the processing of your data. We have no influence on their content or privacy practices.&lt;/p&gt;
+&lt;h2 id=&#34;6-your-rights&#34;&gt;6. Your rights&lt;/h2&gt;
+&lt;p&gt;You have the right to access (Art. 15 GDPR), rectification (Art. 16), erasure (Art. 17), restriction of processing (Art. 18), data portability (Art. 20) and to object to processing based on Art. 6(1)(f) GDPR (Art. 21). To exercise these rights, contact us using the details above. You also have the right to lodge a complaint with a data protection supervisory authority, for example the authority responsible for your place of residence or the 
+&lt;a href=&#34;https://datenschutz.saarland.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unabhängiges Datenschutzzentrum Saarland&lt;/a&gt;, Fritz-Dobisch-Straße 12, 66111 Saarbrücken, Germany.&lt;/p&gt;
+&lt;h2 id=&#34;7-changes&#34;&gt;7. Changes&lt;/h2&gt;
+&lt;p&gt;We may update this policy when the website or the legal situation changes. The current version is always available on this page.&lt;/p&gt;
 </description>
     </item>
     
